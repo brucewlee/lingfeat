@@ -57,6 +57,6 @@ TraF = LingFeat.TraF_()
 ## License
 We license LingFeat source code under [(Creative Commons Attribution Share Alike 4.0 license CC-BY-SA-4.0)](https://creativecommons.org/licenses/by-sa/4.0/legalcode).
 
-Under CC-BY-SA-4.0 license, you are allowed to commercially use, distribute, modify, or privately use this repository.
+Under CC-BY-SA-4.0 license, you are allowed to distribute, modify, or privately use this repository.
 
 But patent use, trademark use, and warranty use are not permitted. Work building on top of LingFeat must be released under the same license. In some case, a similar license may be used.
