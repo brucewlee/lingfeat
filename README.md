@@ -57,7 +57,7 @@ TraF = LingFeat.TraF_()
 ## Available Features, Code, Definition
 | Index | Linguistic Branch   | Subgroup Code | Subgroup Definition                  | Feature Code | Feature Definition                                                             |
 |-------|---------------------|---------------|--------------------------------------|--------------|--------------------------------------------------------------------------------|
-| 1     | AdSem  | WoKF_         | World Knowledge Features             | WRich05_S    | Semantic Richness, 50 topics extracted from Wikipedia                          |
+| 1     | AdSem  | WoKF_         | Wiki Knowledge Features             | WRich05_S    | Semantic Richness, 50 topics extracted from Wikipedia                          |
 | 2     | AdSem  | WoKF_         | World Knowledge Features             | WClar05_S    | Semantic Clarity, 50 topics extracted from Wikipedia                           |
 | 3     | AdSem  | WoKF_         | World Knowledge Features             | WNois05_S    | Semantic Noise, 50 topics extracted from Wikipedia                             |
 | 4     | AdSem  | WoKF_         | World Knowledge Features             | WTopc05_S    | Number of topics, 50 topics extracted from Wikipedia                           |
