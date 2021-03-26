@@ -8,7 +8,7 @@ These features can be divided into five broad linguistic branches:
 1. **Advanced Semantic** (AdSem): for measuring complex meaning structure 
 2. **Discourse** (Disco): for measuring textual organization
 3. **Syntactic** (Synta): for measuring the complexity of grammar
-4. **Lexico Semantic** (LxSem): for measuring word/phrasal difficulty
+4. **Lexico Semantic** (LxSem): for measuring word/phrasal-specific difficulty
 5. **Shallow Traditional** (ShTra): traditional features/formulas for text difficulty
 
 ## Things to note
