@@ -14,7 +14,7 @@ These features can be divided into five broad linguistic branches:
 ## Things to note
 The features contained in this software are inspired from readability assessment (RA) research, a time-honored branch of NLP. References are listed in this documentation.
 
-To broadly understand how these features interact with readability, difficulty, and complexity of a passage, I suggest you read Section 2 and 3 in my paper, **Pushing on Readability: Advanced Semantic and Neural Augmentation**, EMNLP.
+To broadly understand how these features interact with text readability, difficulty, and complexity, I suggest you read Section 2 and 3 in my paper, **Pushing on Readability: Advanced Semantic and Neural Augmentation**, EMNLP.
 
 Most of these features are developed for passage-level analysis. But sentence input will work fine with the program, too.
 
