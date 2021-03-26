@@ -73,38 +73,38 @@ TraF = LingFeat.TraF_()
 | 14    | AdSem  | WoKF_         | World Knowledge Features             | WClar20_S    | Semantic Clarity, 200 topics extracted from Wikipedia                          |
 | 15    | AdSem  | WoKF_         | World Knowledge Features             | WNois20_S    | Semantic Noise, 200 topics extracted from Wikipedia                            |
 | 16    | AdSem  | WoKF_         | World Knowledge Features             | WTopc20_S    | Number of topics, 200 topics extracted from Wikipedia                          |
-| 17    | AdSem  | WBKF_         | WeeBit Corpus Knowledge Features     | BRich05_S    | Semantic Richness, 50 topics extracted from WeeBit Corpus                  |
-| 18    | AdSem  | WBKF_         | WeeBit Corpus Knowledge Features     | BClar05_S    | Semantic Clarity, 50 topics extracted from WeeBit Corpus                       |
-| 19    | AdSem  | WBKF_         | WeeBit Corpus Knowledge Features     | BNois05_S    | Semantic Noise, 50 topics extracted from WeeBit Corpus                         |
-| 20    | AdSem  | WBKF_         | WeeBit Corpus Knowledge Features     | BTopc05_S    | Number of topics, 50 topics extracted from WeeBit Corpus                       |
-| 21    | AdSem  | WBKF_         | WeeBit Corpus Knowledge Features     | BRich10_S    | Semantic Richness, 100 topics extracted from WeeBit Corpus                 |
-| 22    | AdSem  | WBKF_         | WeeBit Corpus Knowledge Features     | BClar10_S    | Semantic Clarity, 100 topics extracted from WeeBit Corpus                      |
-| 23    | AdSem  | WBKF_         | WeeBit Corpus Knowledge Features     | BNois10_S    | Semantic Noise, 100 topics extracted from WeeBit Corpus                        |
-| 24    | AdSem  | WBKF_         | WeeBit Corpus Knowledge Features     | BTopc10_S    | Number of topics, 100 topics extracted from WeeBit Corpus                      |
-| 25    | AdSem  | WBKF_         | WeeBit Corpus Knowledge Features     | BRich15_S    | Semantic Richness, 150 topics extracted from WeeBit Corpus                 |
-| 26    | AdSem  | WBKF_         | WeeBit Corpus Knowledge Features     | BClar15_S    | Semantic Clarity, 150 topics extracted from WeeBit Corpus                      |
-| 27    | AdSem  | WBKF_         | WeeBit Corpus Knowledge Features     | BNois15_S    | Semantic Noise, 150 topics extracted from WeeBit Corpus                        |
-| 28    | AdSem  | WBKF_         | WeeBit Corpus Knowledge Features     | BTopc15_S    | Number of topics, 150 topics extracted from WeeBit Corpus                      |
-| 29    | AdSem  | WBKF_         | WeeBit Corpus Knowledge Features     | BRich20_S    | Semantic Richness, 200 topics extracted from WeeBit Corpus                 |
-| 30    | AdSem  | WBKF_         | WeeBit Corpus Knowledge Features     | BClar20_S    | Semantic Clarity, 200 topics extracted from WeeBit Corpus                      |
-| 31    | AdSem  | WBKF_         | WeeBit Corpus Knowledge Features     | BNois20_S    | Semantic Noise, 200 topics extracted from WeeBit Corpus                        |
-| 32    | AdSem  | WBKF_         | WeeBit Corpus Knowledge Features     | BTopc20_S    | Number of topics, 200 topics extracted from WeeBit Corpus                      |
-| 33    | AdSem  | OSKF_         | OneStopEng Corpus Knowledge Features | ORich05_S    | Semantic Richness, 50 topics extracted from OneStopEng Corpus              |
-| 34    | AdSem  | OSKF_         | OneStopEng Corpus Knowledge Features | OClar05_S    | Semantic Clarity, 50 topics extracted from OneStopEng Corpus                   |
-| 35    | AdSem  | OSKF_         | OneStopEng Corpus Knowledge Features | ONois05_S    | Semantic Noise, 50 topics extracted from OneStopEng Corpus                     |
-| 36    | AdSem  | OSKF_         | OneStopEng Corpus Knowledge Features | OTopc05_S    | Number of topics, 50 topics extracted from OneStopEng Corpus                   |
-| 37    | AdSem  | OSKF_         | OneStopEng Corpus Knowledge Features | ORich10_S    | Semantic Richness, 100 topics extracted from OneStopEng Corpus             |
-| 38    | AdSem  | OSKF_         | OneStopEng Corpus Knowledge Features | OClar10_S    | Semantic Clarity, 100 topics extracted from OneStopEng Corpus                  |
-| 39    | AdSem  | OSKF_         | OneStopEng Corpus Knowledge Features | ONois10_S    | Semantic Noise, 100 topics extracted from OneStopEng Corpus                    |
-| 40    | AdSem  | OSKF_         | OneStopEng Corpus Knowledge Features | OTopc10_S    | Number of topics, 100 topics extracted from OneStopEng Corpus                  |
-| 41    | AdSem  | OSKF_         | OneStopEng Corpus Knowledge Features | ORich15_S    | Semantic Richness, 150 topics extracted from OneStopEng Corpus             |
-| 42    | AdSem  | OSKF_         | OneStopEng Corpus Knowledge Features | OClar15_S    | Semantic Clarity, 150 topics extracted from OneStopEng Corpus                  |
-| 43    | AdSem  | OSKF_         | OneStopEng Corpus Knowledge Features | ONois15_S    | Semantic Noise, 150 topics extracted from OneStopEng Corpus                    |
-| 44    | AdSem  | OSKF_         | OneStopEng Corpus Knowledge Features | OTopc15_S    | Number of topics, 150 topics extracted from OneStopEng Corpus                  |
-| 45    | AdSem  | OSKF_         | OneStopEng Corpus Knowledge Features | ORich20_S    | Semantic Richness, 200 topics extracted from OneStopEng Corpus             |
-| 46    | AdSem  | OSKF_         | OneStopEng Corpus Knowledge Features | OClar20_S    | Semantic Clarity, 200 topics extracted from OneStopEng Corpus                  |
-| 47    | AdSem  | OSKF_         | OneStopEng Corpus Knowledge Features | ONois20_S    | Semantic Noise, 200 topics extracted from OneStopEng Corpus                    |
-| 48    | AdSem  | OSKF_         | OneStopEng Corpus Knowledge Features | OTopc20_S    | Number of topics, 200 topics extracted from OneStopEng Corpus                  |
+| 17    | AdSem  | WBKF_         | WeeBit Knowledge Features     | BRich05_S    | Semantic Richness, 50 topics extracted from WeeBit Corpus                  |
+| 18    | AdSem  | WBKF_         | WeeBit Knowledge Features     | BClar05_S    | Semantic Clarity, 50 topics extracted from WeeBit Corpus                       |
+| 19    | AdSem  | WBKF_         | WeeBit Knowledge Features     | BNois05_S    | Semantic Noise, 50 topics extracted from WeeBit Corpus                         |
+| 20    | AdSem  | WBKF_         | WeeBit Knowledge Features     | BTopc05_S    | Number of topics, 50 topics extracted from WeeBit Corpus                       |
+| 21    | AdSem  | WBKF_         | WeeBit Knowledge Features     | BRich10_S    | Semantic Richness, 100 topics extracted from WeeBit Corpus                 |
+| 22    | AdSem  | WBKF_         | WeeBit Knowledge Features     | BClar10_S    | Semantic Clarity, 100 topics extracted from WeeBit Corpus                      |
+| 23    | AdSem  | WBKF_         | WeeBit Knowledge Features     | BNois10_S    | Semantic Noise, 100 topics extracted from WeeBit Corpus                        |
+| 24    | AdSem  | WBKF_         | WeeBit Knowledge Features     | BTopc10_S    | Number of topics, 100 topics extracted from WeeBit Corpus                      |
+| 25    | AdSem  | WBKF_         | WeeBit Knowledge Features     | BRich15_S    | Semantic Richness, 150 topics extracted from WeeBit Corpus                 |
+| 26    | AdSem  | WBKF_         | WeeBit Knowledge Features     | BClar15_S    | Semantic Clarity, 150 topics extracted from WeeBit Corpus                      |
+| 27    | AdSem  | WBKF_         | WeeBit Knowledge Features     | BNois15_S    | Semantic Noise, 150 topics extracted from WeeBit Corpus                        |
+| 28    | AdSem  | WBKF_         | WeeBit Knowledge Features     | BTopc15_S    | Number of topics, 150 topics extracted from WeeBit Corpus                      |
+| 29    | AdSem  | WBKF_         | WeeBit Knowledge Features     | BRich20_S    | Semantic Richness, 200 topics extracted from WeeBit Corpus                 |
+| 30    | AdSem  | WBKF_         | WeeBit Knowledge Features     | BClar20_S    | Semantic Clarity, 200 topics extracted from WeeBit Corpus                      |
+| 31    | AdSem  | WBKF_         | WeeBit Knowledge Features     | BNois20_S    | Semantic Noise, 200 topics extracted from WeeBit Corpus                        |
+| 32    | AdSem  | WBKF_         | WeeBit Knowledge Features     | BTopc20_S    | Number of topics, 200 topics extracted from WeeBit Corpus                      |
+| 33    | AdSem  | OSKF_         | OneStopEng Knowledge Features | ORich05_S    | Semantic Richness, 50 topics extracted from OneStopEng Corpus              |
+| 34    | AdSem  | OSKF_         | OneStopEng Knowledge Features | OClar05_S    | Semantic Clarity, 50 topics extracted from OneStopEng Corpus                   |
+| 35    | AdSem  | OSKF_         | OneStopEng Knowledge Features | ONois05_S    | Semantic Noise, 50 topics extracted from OneStopEng Corpus                     |
+| 36    | AdSem  | OSKF_         | OneStopEng Knowledge Features | OTopc05_S    | Number of topics, 50 topics extracted from OneStopEng Corpus                   |
+| 37    | AdSem  | OSKF_         | OneStopEng Knowledge Features | ORich10_S    | Semantic Richness, 100 topics extracted from OneStopEng Corpus             |
+| 38    | AdSem  | OSKF_         | OneStopEng Knowledge Features | OClar10_S    | Semantic Clarity, 100 topics extracted from OneStopEng Corpus                  |
+| 39    | AdSem  | OSKF_         | OneStopEng Knowledge Features | ONois10_S    | Semantic Noise, 100 topics extracted from OneStopEng Corpus                    |
+| 40    | AdSem  | OSKF_         | OneStopEng Knowledge Features | OTopc10_S    | Number of topics, 100 topics extracted from OneStopEng Corpus                  |
+| 41    | AdSem  | OSKF_         | OneStopEng Knowledge Features | ORich15_S    | Semantic Richness, 150 topics extracted from OneStopEng Corpus             |
+| 42    | AdSem  | OSKF_         | OneStopEng Knowledge Features | OClar15_S    | Semantic Clarity, 150 topics extracted from OneStopEng Corpus                  |
+| 43    | AdSem  | OSKF_         | OneStopEng Knowledge Features | ONois15_S    | Semantic Noise, 150 topics extracted from OneStopEng Corpus                    |
+| 44    | AdSem  | OSKF_         | OneStopEng Knowledge Features | OTopc15_S    | Number of topics, 150 topics extracted from OneStopEng Corpus                  |
+| 45    | AdSem  | OSKF_         | OneStopEng Knowledge Features | ORich20_S    | Semantic Richness, 200 topics extracted from OneStopEng Corpus             |
+| 46    | AdSem  | OSKF_         | OneStopEng Knowledge Features | OClar20_S    | Semantic Clarity, 200 topics extracted from OneStopEng Corpus                  |
+| 47    | AdSem  | OSKF_         | OneStopEng Knowledge Features | ONois20_S    | Semantic Noise, 200 topics extracted from OneStopEng Corpus                    |
+| 48    | AdSem  | OSKF_         | OneStopEng Knowledge Features | OTopc20_S    | Number of topics, 200 topics extracted from OneStopEng Corpus                  |
 | 49    | Disco           | EnDF_         | Entity Density Features              | to_EntiM_C   | total number of Entities Mentions counts                                       |
 | 50    | Disco           | EnDF_         | Entity Density Features              | as_EntiM_C   | average number of Entities Mentions counts per sentence                        |
 | 51    | Disco           | EnDF_         | Entity Density Features              | at_EntiM_C   | average number of Entities Mentions counts per token (word)                    |
