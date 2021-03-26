@@ -173,19 +173,19 @@ class start:
     Extract WeeBit Corpus Knowledge Features -> 12
 
     output (type -> dictionary): 
-    - BRich05_S: Semantic Richness from 50 topics extracted from WeeBit Corpus
+    - BRich05_S: Semantic Richness, 50 topics extracted from WeeBit Corpus
     - BClar05_S: Semantic Clarity, 50 topics extracted from WeeBit Corpus
     - BNois05_S: Semantic Noise, 50 topics extracted from WeeBit Corpus
     - BTopc05_S: Number of topics, 50 topics extracted from WeeBit Corpus
-    - BRich10_S: Semantic Richness from 100 topics extracted from WeeBit Corpus
+    - BRich10_S: Semantic Richness, 100 topics extracted from WeeBit Corpus
     - BClar10_S: Semantic Clarity, 100 topics extracted from WeeBit Corpus
     - BNois10_S: Semantic Noise, 100 topics extracted from WeeBit Corpus
     - BTopc10_S: Number of topics, 100 topics extracted from WeeBit Corpus
-    - BRich15_S: Semantic Richness from 150 topics extracted from WeeBit Corpus
+    - BRich15_S: Semantic Richness, 150 topics extracted from WeeBit Corpus
     - BClar15_S: Semantic Clarity, 150 topics extracted from WeeBit Corpus
     - BNois15_S: Semantic Noise, 150 topics extracted from WeeBit Corpus
     - BTopc15_S: Number of topics, 150 topics extracted from WeeBit Corpus
-    - BRich20_S: Semantic Richness from 200 topics extracted from WeeBit Corpus
+    - BRich20_S: Semantic Richness, 200 topics extracted from WeeBit Corpus
     - BClar20_S: Semantic Clarity, 200 topics extracted from WeeBit Corpus
     - BNois20_S: Semantic Noise, 200 topics extracted from WeeBit Corpus
     - BTopc20_S: Number of topics, 200 topics extracted from WeeBit Corpus
@@ -201,19 +201,19 @@ class start:
     Extract OneStopEng Corpus Knowledge Features -> 12
 
     output (type -> dictionary): 
-    - ORich05_S: Semantic Richness from 50 topics extracted from OneStopEng Corpus
+    - ORich05_S: Semantic Richness, 50 topics extracted from OneStopEng Corpus
     - OClar05_S: Semantic Clarity, 50 topics extracted from OneStopEng Corpus
     - ONois05_S: Semantic Noise, 50 topics extracted from OneStopEng Corpus
     - OTopc05_S: Number of topics, 50 topics extracted from OneStopEng Corpus
-    - ORich10_S: Semantic Richness from 100 topics extracted from OneStopEng Corpus
+    - ORich10_S: Semantic Richness, 100 topics extracted from OneStopEng Corpus
     - OClar10_S: Semantic Clarity, 100 topics extracted from OneStopEng Corpus
     - ONois10_S: Semantic Noise, 100 topics extracted from OneStopEng Corpus
     - OTopc10_S: Number of topics, 100 topics extracted from OneStopEng Corpus
-    - ORich15_S: Semantic Richness from 150 topics extracted from OneStopEng Corpus
+    - ORich15_S: Semantic Richness, 150 topics extracted from OneStopEng Corpus
     - OClar15_S: Semantic Clarity, 150 topics extracted from OneStopEng Corpus
     - ONois15_S: Semantic Noise, 150 topics extracted from OneStopEng Corpus
     - OTopc15_S: Number of topics, 150 topics extracted from OneStopEng Corpus
-    - ORich20_S: Semantic Richness from 200 topics extracted from OneStopEng Corpus
+    - ORich20_S: Semantic Richness, 200 topics extracted from OneStopEng Corpus
     - OClar20_S: Semantic Clarity, 200 topics extracted from OneStopEng Corpus
     - ONois20_S: Semantic Noise, 200 topics extracted from OneStopEng Corpus
     - OTopc20_S: Number of topics, 200 topics extracted from OneStopEng Corpus

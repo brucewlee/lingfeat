@@ -73,35 +73,35 @@ TraF = LingFeat.TraF_()
 | 14    | Advanced Semantics  | WoKF_         | World Knowledge Features             | WClar20_S    | Semantic Clarity, 200 topics extracted from Wikipedia                          |
 | 15    | Advanced Semantics  | WoKF_         | World Knowledge Features             | WNois20_S    | Semantic Noise, 200 topics extracted from Wikipedia                            |
 | 16    | Advanced Semantics  | WoKF_         | World Knowledge Features             | WTopc20_S    | Number of topics, 200 topics extracted from Wikipedia                          |
-| 17    | Advanced Semantics  | WBKF_         | WeeBit Corpus Knowledge Features     | BRich05_S    | Semantic Richness from 50 topics extracted from WeeBit Corpus                  |
+| 17    | Advanced Semantics  | WBKF_         | WeeBit Corpus Knowledge Features     | BRich05_S    | Semantic Richness, 50 topics extracted from WeeBit Corpus                  |
 | 18    | Advanced Semantics  | WBKF_         | WeeBit Corpus Knowledge Features     | BClar05_S    | Semantic Clarity, 50 topics extracted from WeeBit Corpus                       |
 | 19    | Advanced Semantics  | WBKF_         | WeeBit Corpus Knowledge Features     | BNois05_S    | Semantic Noise, 50 topics extracted from WeeBit Corpus                         |
 | 20    | Advanced Semantics  | WBKF_         | WeeBit Corpus Knowledge Features     | BTopc05_S    | Number of topics, 50 topics extracted from WeeBit Corpus                       |
-| 21    | Advanced Semantics  | WBKF_         | WeeBit Corpus Knowledge Features     | BRich10_S    | Semantic Richness from 100 topics extracted from WeeBit Corpus                 |
+| 21    | Advanced Semantics  | WBKF_         | WeeBit Corpus Knowledge Features     | BRich10_S    | Semantic Richness, 100 topics extracted from WeeBit Corpus                 |
 | 22    | Advanced Semantics  | WBKF_         | WeeBit Corpus Knowledge Features     | BClar10_S    | Semantic Clarity, 100 topics extracted from WeeBit Corpus                      |
 | 23    | Advanced Semantics  | WBKF_         | WeeBit Corpus Knowledge Features     | BNois10_S    | Semantic Noise, 100 topics extracted from WeeBit Corpus                        |
 | 24    | Advanced Semantics  | WBKF_         | WeeBit Corpus Knowledge Features     | BTopc10_S    | Number of topics, 100 topics extracted from WeeBit Corpus                      |
-| 25    | Advanced Semantics  | WBKF_         | WeeBit Corpus Knowledge Features     | BRich15_S    | Semantic Richness from 150 topics extracted from WeeBit Corpus                 |
+| 25    | Advanced Semantics  | WBKF_         | WeeBit Corpus Knowledge Features     | BRich15_S    | Semantic Richness, 150 topics extracted from WeeBit Corpus                 |
 | 26    | Advanced Semantics  | WBKF_         | WeeBit Corpus Knowledge Features     | BClar15_S    | Semantic Clarity, 150 topics extracted from WeeBit Corpus                      |
 | 27    | Advanced Semantics  | WBKF_         | WeeBit Corpus Knowledge Features     | BNois15_S    | Semantic Noise, 150 topics extracted from WeeBit Corpus                        |
 | 28    | Advanced Semantics  | WBKF_         | WeeBit Corpus Knowledge Features     | BTopc15_S    | Number of topics, 150 topics extracted from WeeBit Corpus                      |
-| 29    | Advanced Semantics  | WBKF_         | WeeBit Corpus Knowledge Features     | BRich20_S    | Semantic Richness from 200 topics extracted from WeeBit Corpus                 |
+| 29    | Advanced Semantics  | WBKF_         | WeeBit Corpus Knowledge Features     | BRich20_S    | Semantic Richness, 200 topics extracted from WeeBit Corpus                 |
 | 30    | Advanced Semantics  | WBKF_         | WeeBit Corpus Knowledge Features     | BClar20_S    | Semantic Clarity, 200 topics extracted from WeeBit Corpus                      |
 | 31    | Advanced Semantics  | WBKF_         | WeeBit Corpus Knowledge Features     | BNois20_S    | Semantic Noise, 200 topics extracted from WeeBit Corpus                        |
 | 32    | Advanced Semantics  | WBKF_         | WeeBit Corpus Knowledge Features     | BTopc20_S    | Number of topics, 200 topics extracted from WeeBit Corpus                      |
-| 33    | Advanced Semantics  | OSKF_         | OneStopEng Corpus Knowledge Features | ORich05_S    | Semantic Richness from 50 topics extracted from OneStopEng Corpus              |
+| 33    | Advanced Semantics  | OSKF_         | OneStopEng Corpus Knowledge Features | ORich05_S    | Semantic Richness, 50 topics extracted from OneStopEng Corpus              |
 | 34    | Advanced Semantics  | OSKF_         | OneStopEng Corpus Knowledge Features | OClar05_S    | Semantic Clarity, 50 topics extracted from OneStopEng Corpus                   |
 | 35    | Advanced Semantics  | OSKF_         | OneStopEng Corpus Knowledge Features | ONois05_S    | Semantic Noise, 50 topics extracted from OneStopEng Corpus                     |
 | 36    | Advanced Semantics  | OSKF_         | OneStopEng Corpus Knowledge Features | OTopc05_S    | Number of topics, 50 topics extracted from OneStopEng Corpus                   |
-| 37    | Advanced Semantics  | OSKF_         | OneStopEng Corpus Knowledge Features | ORich10_S    | Semantic Richness from 100 topics extracted from OneStopEng Corpus             |
+| 37    | Advanced Semantics  | OSKF_         | OneStopEng Corpus Knowledge Features | ORich10_S    | Semantic Richness, 100 topics extracted from OneStopEng Corpus             |
 | 38    | Advanced Semantics  | OSKF_         | OneStopEng Corpus Knowledge Features | OClar10_S    | Semantic Clarity, 100 topics extracted from OneStopEng Corpus                  |
 | 39    | Advanced Semantics  | OSKF_         | OneStopEng Corpus Knowledge Features | ONois10_S    | Semantic Noise, 100 topics extracted from OneStopEng Corpus                    |
 | 40    | Advanced Semantics  | OSKF_         | OneStopEng Corpus Knowledge Features | OTopc10_S    | Number of topics, 100 topics extracted from OneStopEng Corpus                  |
-| 41    | Advanced Semantics  | OSKF_         | OneStopEng Corpus Knowledge Features | ORich15_S    | Semantic Richness from 150 topics extracted from OneStopEng Corpus             |
+| 41    | Advanced Semantics  | OSKF_         | OneStopEng Corpus Knowledge Features | ORich15_S    | Semantic Richness, 150 topics extracted from OneStopEng Corpus             |
 | 42    | Advanced Semantics  | OSKF_         | OneStopEng Corpus Knowledge Features | OClar15_S    | Semantic Clarity, 150 topics extracted from OneStopEng Corpus                  |
 | 43    | Advanced Semantics  | OSKF_         | OneStopEng Corpus Knowledge Features | ONois15_S    | Semantic Noise, 150 topics extracted from OneStopEng Corpus                    |
 | 44    | Advanced Semantics  | OSKF_         | OneStopEng Corpus Knowledge Features | OTopc15_S    | Number of topics, 150 topics extracted from OneStopEng Corpus                  |
-| 45    | Advanced Semantics  | OSKF_         | OneStopEng Corpus Knowledge Features | ORich20_S    | Semantic Richness from 200 topics extracted from OneStopEng Corpus             |
+| 45    | Advanced Semantics  | OSKF_         | OneStopEng Corpus Knowledge Features | ORich20_S    | Semantic Richness, 200 topics extracted from OneStopEng Corpus             |
 | 46    | Advanced Semantics  | OSKF_         | OneStopEng Corpus Knowledge Features | OClar20_S    | Semantic Clarity, 200 topics extracted from OneStopEng Corpus                  |
 | 47    | Advanced Semantics  | OSKF_         | OneStopEng Corpus Knowledge Features | ONois20_S    | Semantic Noise, 200 topics extracted from OneStopEng Corpus                    |
 | 48    | Advanced Semantics  | OSKF_         | OneStopEng Corpus Knowledge Features | OTopc20_S    | Number of topics, 200 topics extracted from OneStopEng Corpus                  |
