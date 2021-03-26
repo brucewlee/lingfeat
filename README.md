@@ -18,7 +18,7 @@ To broadly understand how these features interact with text readability, difficu
 
 **Pushing on Readability: Advanced Semantic and Neural Augmentation**, EMNLP 2021.
 
-Most of these features are developed for passage-level analysis. But sentence input will work fine with the program, too.
+Most of these features are developed for passage-level analysis. But sentence input will work fine with the program.
 
 ## Installation
 
