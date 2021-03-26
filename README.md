@@ -98,6 +98,14 @@ ShaF = LingFeat.ShaF_() # Shallow Features (e.g. avg n_token)
 TraF = LingFeat.TraF_() # Traditional Formulas Features
 ```
 
+## License
+We license LingFeat source code under [(Creative Commons Attribution Share Alike 4.0 license CC-BY-SA-4.0)](https://creativecommons.org/licenses/by-sa/4.0/legalcode).
+
+Under CC-BY-SA-4.0 license, you are allowed to distribute, modify, or privately use this repository.
+
+But patent use, trademark use, and warranty use are not permitted. Research, code, or etc. that builds on top of LingFeat must be released under the same license. If impossible, a similar public license may be used.
+
+
 ## Available Features, Code, Definition
 | Index | Linguistic Branch   | Subgroup Code | Subgroup Definition                  | Feature Code | Feature Definition                                                             |
 |-------|---------------------|---------------|--------------------------------------|--------------|--------------------------------------------------------------------------------|
@@ -356,14 +364,6 @@ TraF = LingFeat.TraF_() # Traditional Formulas Features
 | 253   | ShaTr| TraF_         | Traditional Formulas Features        | AutoRea_S    | Automated Readability Index                                                    |
 | 254   | ShaTr| TraF_         | Traditional Formulas Features        | FleschG_S    | Flesch Kincaid Grade                                                           |
 | 255   | ShaTr| TraF_         | Traditional Formulas Features        | LinseaW_S    | Linsear Write                                                                  |
-
-
-## License
-We license LingFeat source code under [(Creative Commons Attribution Share Alike 4.0 license CC-BY-SA-4.0)](https://creativecommons.org/licenses/by-sa/4.0/legalcode).
-
-Under CC-BY-SA-4.0 license, you are allowed to distribute, modify, or privately use this repository.
-
-But patent use, trademark use, and warranty use are not permitted. Research, code, or etc. that builds on top of LingFeat must be released under the same license. If impossible, a similar public license may be used.
 
 
 ## References
