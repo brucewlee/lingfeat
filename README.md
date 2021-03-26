@@ -60,3 +60,7 @@ We license LingFeat source code under [(Creative Commons Attribution Share Alike
 Under CC-BY-SA-4.0 license, you are allowed to distribute, modify, or privately use this repository.
 
 But patent use, trademark use, and warranty use are not permitted. Work building on top of LingFeat must be released under the same license. In some case, a similar license may be used.
+
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
+[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
