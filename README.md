@@ -4,7 +4,7 @@
 
 LingFeat is a Python research package for dealing with various handcrafted linguistic features. 
 
-LingFeat currently supports 218 linguistic features, divided into five linguistic branches:
+LingFeat currently supports 255 linguistic features, divided into five linguistic branches:
 1. Advanced Semantic (abbrev: AdSem)
 2. Discourse (abbrev: Disco)
 3. Syntactic (abbrev: Synta)
