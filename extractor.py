@@ -39,7 +39,7 @@ import lingfeat._Syntactic.TrSF as Synta_TrSF
 import lingfeat._LexicoSemantic.TTRF as LxSem_TTRF
 import lingfeat._LexicoSemantic.VarF as LxSem_VarF
 import lingfeat._LexicoSemantic.PsyF as LxSem_PsyF
-import lingfeat._LexicoSemantic.WoLF as LxSem_WorF
+import lingfeat._LexicoSemantic.WorF as LxSem_WorF
 
 # shallow features
 import lingfeat._ShallowTraditional.ShaF as ShaTr_ShaF
