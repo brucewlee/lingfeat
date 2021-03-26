@@ -1,8 +1,6 @@
 [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 # LingFeat - Comprehensive Linguistic Features Extraction for Readability Assessment
-## Navigate
 - [LingFeat - Comprehensive Linguistic Features Extraction for Readability Assessment](#lingfeat---comprehensive-linguistic-features-extraction-for-readability-assessment)
-  - [Navigate](#navigate)
   - [Overview](#overview)
   - [Things to note](#things-to-note)
   - [Installation](#installation)
