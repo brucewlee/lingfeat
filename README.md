@@ -17,7 +17,7 @@ Most of these features are inspired from readability assessment (RA) research, a
 
 Option 1. Use the package manager [pip](https://pip.pypa.io/en/stable/) to install LingFeat. (not supported now)
 ```bash
-pip install foobar
+pip install lingfeat
 ```
 
 Option 2. Install from the repo.
