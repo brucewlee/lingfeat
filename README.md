@@ -28,30 +28,69 @@ git clone https://github.com/brucewlee/lingfeat.git
 ## Usage
 
 ```python
-# import
+"""
+Import
+
+this is the only import you need
+"""
 from lingfeat import extractor
 
-# pass in text (string)
+
+"""
+Pass text
+
+here, text must be in string type
+"""
 LingFeat = extractor.start(text)
 
-# preprocess
-LingFeat.preprocess()
 
-# extract features - each method returns a dictionary of corresponding features
-WoKF = LingFeat.WoKF_()
-WBKF = LingFeat.WBKF_()
-OSKF = LingFeat.OSKF_()
-EnDF = LingFeat.EnDF_()
-EnGF = LingFeat.EnGF_()
-PhrF = LingFeat.PhrF_()
-TrSF = LingFeat.TrSF_()
-POSF = LingFeat.POSF_()
-TTRF = LingFeat.TTRF_()
-VarF = LingFeat.VarF_()
-PsyF = LingFeat.PsyF_() 
-WoLF = LingFeat.WoLF_()
-ShaF = LingFeat.ShaF_()
-TraF = LingFeat.TraF_()
+"""
+Preprocess text
+
+options (all boolean):
+- short (default False): include short words of < 3 letters
+- see_token (default False): return token list
+- see_sent_token (default False): return tokens in sentences
+
+output:
+- n_token
+- n_sent
+- token_list (optional)
+- sent_token_list (optional)
+"""
+LingFeat.preprocess()
+# or
+# print(LingFeat.preprocess())
+
+
+"""
+Extract features
+
+each method returns a dictionary of the corresponding features
+"""
+# Advanced Semantic (AdSem) Features
+WoKF = LingFeat.WoKF_() # Wikipedia Knowledge Features
+WBKF = LingFeat.WBKF_() # WeeBit Corpus Knowledge Features
+OSKF = LingFeat.OSKF_() # OneStopEng Corpus Knowledge Features
+
+# Discourse (Disco) Features
+EnDF = LingFeat.EnDF_() # Entity Density Features
+EnGF = LingFeat.EnGF_() # Entity Grid Features
+
+# Syntactic (Synta) Features
+PhrF = LingFeat.PhrF_() # Phrasal Features
+TrSF = LingFeat.TrSF_() # (Parse) Tree Structural Features
+POSF = LingFeat.POSF_() # Part_of_Speech Features
+
+# Lexico Semantic (LxSem) Features
+TTRF = LingFeat.TTRF_() # Type Token Ratio Features
+VarF = LingFeat.VarF_() # Noun/Verb/Adj/Adv Variation Features 
+PsyF = LingFeat.PsyF_() # Psycholing. Features (AoA Kuperman)
+WoLF = LingFeat.WorF_() # Word Frequency Features (SubtlexUS)
+
+# Shallow Traditional (ShTra) Features
+ShaF = LingFeat.ShaF_() # Shallow Features (e.g. avg n_token)
+TraF = LingFeat.TraF_() # Traditional Formulas Features
 ```
 
 ## Available Features, Code, Definition
@@ -319,7 +358,7 @@ We license LingFeat source code under [(Creative Commons Attribution Share Alike
 
 Under CC-BY-SA-4.0 license, you are allowed to distribute, modify, or privately use this repository.
 
-But patent use, trademark use, and warranty use are not permitted. Work building on top of LingFeat must be released under the same license. In some case, a similar license may be used.
+But patent use, trademark use, and warranty use are not permitted. Research, code, or etc. that builds on top of LingFeat must be released under the same license. If impossible, a similar public license may be used.
 
 [cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
 [cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
