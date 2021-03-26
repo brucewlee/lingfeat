@@ -2,16 +2,21 @@
 # LingFeat - Comprehensive Linguistic Features Extraction for Readability Assessment
 ## Overview
 
-LingFeat is a Python research package for dealing with various handcrafted linguistic features. 
+LingFeat is a Python research package for various handcrafted linguistic features. 
 
-LingFeat currently supports 255 linguistic features, divided into five linguistic branches:
-1. Advanced Semantic (abbrev: AdSem)
-2. Discourse (abbrev: Disco)
-3. Syntactic (abbrev: Synta)
-4. Lexico Semantic (abbrev: LxSem)
-5. Shallow Traditional (abbrev: ShTra)
+LingFeat currently extracts 255 linguistic features from string input. 
 
-Most of these features are inspired from readability assessment (RA) research, a branch of NLP.
+The features can be divided into five broad linguistic branches:
+1. **Advanced Semantic** (AdSem): for measuring complex meaning structure 
+2. **Discourse** (Disco): for measuring textual organization
+3. **Syntactic** (Synta): for measuring the complexity of grammar
+4. **Lexico Semantic** (LxSem): for measuring word/phrasal difficulty
+5. **Shallow Traditional** (ShTra): traditional features/formulas for text difficulty
+
+## Things to note
+These features are inspired from readability assessment (RA) research, a time-honored branch of NLP. References are listed in this documentation.
+
+Most of these features are developed for passage-level analysis. But sentence input will work fine with the program, too.
 
 ## Installation
 
@@ -359,6 +364,50 @@ We license LingFeat source code under [(Creative Commons Attribution Share Alike
 Under CC-BY-SA-4.0 license, you are allowed to distribute, modify, or privately use this repository.
 
 But patent use, trademark use, and warranty use are not permitted. Research, code, or etc. that builds on top of LingFeat must be released under the same license. If impossible, a similar public license may be used.
+
+
+## References
+
+> Discourse
+
+Publication 1: Feng, Lijun, Noémie Elhadad, and Matt Huenerfauth. "Cognitively motivated features for readability assessment." Proceedings of the 12th Conference of the European Chapter of the ACL (EACL 2009). 2009.
+
+Publication 2: Palma, Diego, and John Atkinson. "Coherence-based automatic essay assessment." IEEE Intelligent Systems 33.5 (2018): 26-36.
+Repository: <https://github.com/dpalmasan/TRUNAJOD2.0>
+
+Publication 3: Rusu, Delia, et al. "Triplet extraction from sentences." Proceedings of the 10th International Multiconference” Information Society-IS. 2007.
+
+Publication 4: Barzilay, Regina, and Mirella Lapata. "Modeling local coherence: An entity-based approach." Computational Linguistics 34.1 (2008): 1-34.
+
+Publication 5: Pitler, Emily, and Ani Nenkova. "Revisiting readability: A unified framework for predicting text quality." Proceedings of the 2008 conference on empirical methods in natural language processing. 2008.
+
+Publication 6: Barzilay, Regina, and Mirella Lapata. "Modeling local coherence: An entity-based approach." Computational Linguistics 34.1 (2008): 1-34.
+
+Publication 7: Guinaudeau, Camille, and Michael Strube. "Graph-based local coherence modeling." Proceedings of the 51st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2013.
+
+> Syntax
+
+Publication 1: Feng, Lijun, Martin Jansche, Matt Huenerfauth, and Noémie Elhadad. "A Comparison of Features for Automatic Readability Assessment." In Coling 2010: Posters, pp. 276-284. 2010.
+
+Publication 2: Lu, Xiaofei. "Automatic analysis of syntactic complexity in second language writing." International journal of corpus linguistics 15, no. 4 (2010): 474-496.
+
+Publication 3: Schwarm, Sarah E., and Mari Ostendorf. "Reading level assessment using support vector machines and statistical language models." Proceedings of the 43rd Annual Meeting of the Association for Computational Linguistics (ACL’05). 2005.
+
+> Lexico Semantics
+
+Publication 1: Kuperman, Victor, Hans Stadthagen-Gonzalez, and Marc Brysbaert. "Age-of-acquisition ratings for 30,000 English words." Behavior research methods 44.4 (2012): 978-990.
+
+Publication 2: Vajjala, Sowmya, and Detmar Meurers. "Readability-based sentence ranking for evaluating text simplification." (2015).
+
+Publication 3: Malvern, David, and Brian Richards. "Measures of lexical richness." The encyclopedia of applied linguistics (2012).
+
+Publication 4: Lu, Xiaofei. "A corpus‐based evaluation of syntactic complexity measures as indices of college‐level ESL writers' language development." TESOL quarterly 45.1 (2011): 36-62.
+
+Publication 5: Vajjala, Sowmya, and Detmar Meurers. "On improving the accuracy of readability classification using insights from second language acquisition." Proceedings of the seventh workshop on building educational applications using NLP. 2012.
+
+> Shallow Traditional
+
+Special thanks to TextStat library.
 
 [cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
 [cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
