@@ -1,4 +1,6 @@
 [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
+<img src="lxper.png" width="150">
+
 # LingFeat - Comprehensive Linguistic Features Extraction ToolKit for Readability Assessment
 - [LingFeat - Comprehensive Linguistic Features Extraction ToolKit for Readability Assessment](#lingfeat---comprehensive-linguistic-features-extraction-toolkit-for-readability-assessment)
   - [Overview](#overview)
