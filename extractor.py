@@ -14,6 +14,7 @@ import tqdm
 def nop(it, *a, **k):
     return it
 tqdm.tqdm = nop
+from lingfeat.utils import nan_check
 
 # performance-central dependencies
 import spacy 
@@ -573,27 +574,17 @@ class start:
 
     
     """
-    Traditional Formulas Features -> 8
+    Traditional Formulas Features -> 6
 
     output (type -> dictionary): 
-    - FleschR_S: Flesch Reading Ease
     - SmogInd_S: Smog Index
     - ColeLia_S: Coleman Liau Readability Score
-    - DaleCha_S: Dale Chall Readability Score
     - Gunning_S: Gunning Fog
     - AutoRea_S: Automated Readability Index
     - FleschG_S: Flesch Kincaid Grade
     - LinseaW_S: Linsear Write
     """
     def TraF_(self):
-        result = ShaTr_TraF.retrieve(self.origin_doc)
+        result = ShaTr_TraF.retrieve(self.origin_doc, self.sent_token_list, self.n_sent, self.n_token)
         result = nan_check(result)
         return result
-    
-
-
-def nan_check(result):
-    for key in result:
-        if math.isnan(float(result[key])):
-            result[key] = 0
-    return result

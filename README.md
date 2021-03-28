@@ -7,7 +7,7 @@
   - [Installation](#installation)
   - [Usage](#usage)
   - [Available Features, Code, Definition](#available-features-code-definition)
-  - [References](#references)
+  - [Key References](#key-references)
   - [License](#license)
 
 ## Overview
@@ -35,7 +35,7 @@ The features contained in this software are inspired from readability assessment
 
 To broadly understand how these features interact with text readability, difficulty, and complexity, I suggest you read Section 2 and 3 in my paper:
 
-**Pushing on Readability: Advanced Semantic and Neural Augmentation**, EMNLP 2021.
+**Pushing on Readability: Advanced Semantics and Neural Augmentation**, EMNLP 2021.
 
 Most of these features are developed for passage-level analysis. But sentence input will work fine with the program.
 
@@ -313,18 +313,18 @@ TraF = LingFeat.TraF_() # Traditional Formulas Features
 | 188   | LxSem     | TTRF_         | Type Token Ratio Features            | BiLoTTR_S    | log(unique tokens)/log(total tokens) (Bi-Logarithmic TTR)                      |
 | 189   | LxSem     | TTRF_         | Type Token Ratio Features            | UberTTR_S    | (log(unique tokens))^2/log(total tokens/unique tokens) (Uber Index)            |
 | 190   | LxSem     | TTRF_         | Type Token Ratio Features            | MTLDTTR_S    | Measure of Textual Lexical Diversity (default TTR = 0.72)                      |
-| 191   | LxSem     | VarF_         | Variation Ratio Features             | SimpNoV_S    | unique Nouns/total Nouns (Noun Variation-1)                                    |
-| 192   | LxSem     | VarF_         | Variation Ratio Features             | SquaNoV_S    | (unique Nouns**2)/total Nouns (Squared Noun Variation-1)                       |
-| 193   | LxSem     | VarF_         | Variation Ratio Features             | CorrNoV_S    | unique Nouns/sqrt(2*total Nouns) (Corrected Noun Variation-1)                  |
-| 194   | LxSem     | VarF_         | Variation Ratio Features             | SimpVeV_S    | unique Verbs/total Verbs (Verb Variation-1)                                    |
-| 195   | LxSem     | VarF_         | Variation Ratio Features             | SquaVeV_S    | (unique Verbs**2)/total Verbs (Squared Verb Variation-1)                       |
-| 196   | LxSem     | VarF_         | Variation Ratio Features             | CorrVeV_S    | unique Verbs/sqrt(2*total Verbs) (Corrected Verb Variation-1)                  |
-| 197   | LxSem     | VarF_         | Variation Ratio Features             | SimpAjV_S    | unique Adjectives/total Adjectives (Adjective Variation-1)                     |
-| 198   | LxSem     | VarF_         | Variation Ratio Features             | SquaAjV_S    | (unique Adjectives**2)/total Adjectives (Squared Adjective Variation-1)        |
-| 199   | LxSem     | VarF_         | Variation Ratio Features             | CorrAjV_S    | unique Adjectives/sqrt(2*total Adjectives) (Corrected Adjective Variation-1)   |
-| 200   | LxSem     | VarF_         | Variation Ratio Features             | SimpAvV_S    | unique Adverbs/total Adverbs (AdVerb Variation-1)                              |
-| 201   | LxSem     | VarF_         | Variation Ratio Features             | SquaAvV_S    | (unique Adverbs**2)/total Adverbs (Squared AdVerb Variation-1)                 |
-| 202   | LxSem     | VarF_         | Variation Ratio Features             | CorrAvV_S    | unique Adverbs/sqrt(2*total Adverbs) (Corrected AdVerb Variation-1)            |
+| 191   | LxSem     | VarF_         | Variational Ratio Features             | SimpNoV_S    | unique Nouns/total Nouns (Noun Variation-1)                                    |
+| 192   | LxSem     | VarF_         | Variational Ratio Features             | SquaNoV_S    | (unique Nouns**2)/total Nouns (Squared Noun Variation-1)                       |
+| 193   | LxSem     | VarF_         | Variational Ratio Features             | CorrNoV_S    | unique Nouns/sqrt(2*total Nouns) (Corrected Noun Variation-1)                  |
+| 194   | LxSem     | VarF_         | Variational Ratio Features             | SimpVeV_S    | unique Verbs/total Verbs (Verb Variation-1)                                    |
+| 195   | LxSem     | VarF_         | Variational Ratio Features             | SquaVeV_S    | (unique Verbs**2)/total Verbs (Squared Verb Variation-1)                       |
+| 196   | LxSem     | VarF_         | Variational Ratio Features             | CorrVeV_S    | unique Verbs/sqrt(2*total Verbs) (Corrected Verb Variation-1)                  |
+| 197   | LxSem     | VarF_         | Variational Ratio Features             | SimpAjV_S    | unique Adjectives/total Adjectives (Adjective Variation-1)                     |
+| 198   | LxSem     | VarF_         | Variational Ratio Features             | SquaAjV_S    | (unique Adjectives**2)/total Adjectives (Squared Adjective Variation-1)        |
+| 199   | LxSem     | VarF_         | Variational Ratio Features             | CorrAjV_S    | unique Adjectives/sqrt(2*total Adjectives) (Corrected Adjective Variation-1)   |
+| 200   | LxSem     | VarF_         | Variational Ratio Features             | SimpAvV_S    | unique Adverbs/total Adverbs (AdVerb Variation-1)                              |
+| 201   | LxSem     | VarF_         | Variational Ratio Features             | SquaAvV_S    | (unique Adverbs**2)/total Adverbs (Squared AdVerb Variation-1)                 |
+| 202   | LxSem     | VarF_         | Variational Ratio Features             | CorrAvV_S    | unique Adverbs/sqrt(2*total Adverbs) (Corrected AdVerb Variation-1)            |
 | 203   | LxSem     | PsyF_         | Psycholinguistic Features            | to_AAKuW_C   | total AoA (Age of Acquisition) of words                                        |
 | 204   | LxSem     | PsyF_         | Psycholinguistic Features            | as_AAKuW_C   | average AoA of words per sentence                                              |
 | 205   | LxSem     | PsyF_         | Psycholinguistic Features            | at_AAKuW_C   | average AoA of words per token                                                 |
@@ -364,64 +364,40 @@ TraF = LingFeat.TraF_() # Traditional Formulas Features
 | 239   | LxSem     | WorF_         | Word Frequency Features              | to_SbL1C_C   | total SubtlexUS Lg10CD value                                                   |
 | 240   | LxSem     | WorF_         | Word Frequency Features              | as_SbL1C_C   | average SubtlexUS Lg10CD value per sentence                                    |
 | 241   | LxSem     | WorF_         | Word Frequency Features              | at_SbL1C_C   | average SubtlexUS Lg10CD value per token                                       |
-| 242   | ShaTr| ShaF_         | Shallow Features                     | to_Token_C   | total count of tokens x total count of sentence                                |
-| 243   | ShaTr| ShaF_         | Shallow Features                     | as_Token_C   | average count of tokens per sentence                                           |
-| 244   | ShaTr| ShaF_         | Shallow Features                     | as_Sylla_C   | average count of syllables per sentence                                        |
-| 245   | ShaTr| ShaF_         | Shallow Features                     | at_Sylla_C   | average count of syllables per token                                           |
-| 246   | ShaTr| ShaF_         | Shallow Features                     | as_Chara_C   | average count of characters per sentence                                       |
-| 247   | ShaTr| ShaF_         | Shallow Features                     | at_Chara_C   | average count of characters per token                                          |
-| 248   | ShaTr| TraF_         | Traditional Formulas Features        | FleschR_S    | Flesch Reading Ease                                                            |
-| 249   | ShaTr| TraF_         | Traditional Formulas Features        | SmogInd_S    | Smog Index                                                                     |
-| 250   | ShaTr| TraF_         | Traditional Formulas Features        | ColeLia_S    | Coleman Liau Readability Score                                                 |
-| 251   | ShaTr| TraF_         | Traditional Formulas Features        | DaleCha_S    | Dale Chall Readability Score                                                   |
-| 252   | ShaTr| TraF_         | Traditional Formulas Features        | Gunning_S    | Gunning Fog                                                                    |
-| 253   | ShaTr| TraF_         | Traditional Formulas Features        | AutoRea_S    | Automated Readability Index                                                    |
-| 254   | ShaTr| TraF_         | Traditional Formulas Features        | FleschG_S    | Flesch Kincaid Grade                                                           |
-| 255   | ShaTr| TraF_         | Traditional Formulas Features        | LinseaW_S    | Linsear Write                                                                  |
+| 242   | ShaTr     | ShaF_         | Shallow Features                     | TokSenM_S   | total count of tokens x total count of sentence                                |
+| 243   | ShaTr     | ShaF_         | Shallow Features                     | TokSenS_S   | sqrt(total count of tokens x total count of sentence)                                |
+| 244   | ShaTr     | ShaF_         | Shallow Features                     | TokSenL_S   | log(total count of tokens)/log(total count of sentence)                           |
+| 245   | ShaTr     | ShaF_         | Shallow Features                     | as_Token_C   | average count of tokens per sentence                                           |
+| 246   | ShaTr     | ShaF_         | Shallow Features                     | as_Sylla_C   | average count of syllables per sentence                                        |
+| 247   | ShaTr     | ShaF_         | Shallow Features                     | at_Sylla_C         | average count of syllables per token                                           |
+| 248   | ShaTr     | ShaF_         | Shallow Features                     | as_Chara_C   | average count of characters per sentence                                       |
+| 249   | ShaTr     | ShaF_         | Shallow Features                     | at_Chara_C   | average count of characters per token                                          |
+| 250   | ShaTr     | TraF_         | Traditional Formulas Features        | SmogInd_S    | Smog Index                                                                     |
+| 251   | ShaTr     | TraF_         | Traditional Formulas Features        | ColeLia_S    | Coleman Liau Readability Score                                                 |
+| 252   | ShaTr     | TraF_         | Traditional Formulas Features        | Gunning_S    | Gunning Fog Count Score                                                                    |
+| 253   | ShaTr     | TraF_         | Traditional Formulas Features        | AutoRea_S    | New Automated Readability Index                                                    |
+| 254   | ShaTr     | TraF_         | Traditional Formulas Features        | FleschG_S    | Flesch Kincaid Grade Level                                                           |
+| 255   | ShaTr     | TraF_         | Traditional Formulas Features        | LinseaW_S    | Linsear Write Formula Score                                                                  |
 
 
-## References
+## Key References
+We only list only the key references here. Check our paper for full references.
 
-> Discourse
+**Entity Density Features**
+> Feng, Lijun, Noémie Elhadad, and Matt Huenerfauth. "Cognitively motivated features for readability assessment." Proceedings of the 12th Conference of the European Chapter of the ACL (EACL 2009). 2009.
 
-Publication 1: Feng, Lijun, Noémie Elhadad, and Matt Huenerfauth. "Cognitively motivated features for readability assessment." Proceedings of the 12th Conference of the European Chapter of the ACL (EACL 2009). 2009.
-
-Publication 2: Palma, Diego, and John Atkinson. "Coherence-based automatic essay assessment." IEEE Intelligent Systems 33.5 (2018): 26-36.
+**Entity Grid Features**
+> Palma, Diego, and John Atkinson. "Coherence-based automatic essay assessment." IEEE Intelligent Systems 33.5 (2018): 26-36.
 Repository: <https://github.com/dpalmasan/TRUNAJOD2.0>
 
-Publication 3: Rusu, Delia, et al. "Triplet extraction from sentences." Proceedings of the 10th International Multiconference” Information Society-IS. 2007.
+**Variational Features**
+> Lu, Xiaofei. "A corpus‐based evaluation of syntactic complexity measures as indices of college‐level ESL writers' language development." TESOL quarterly 45.1 (2011): 36-62.
 
-Publication 4: Barzilay, Regina, and Mirella Lapata. "Modeling local coherence: An entity-based approach." Computational Linguistics 34.1 (2008): 1-34.
+**Psycholinguistic Features**
+> Kuperman, Victor, Hans Stadthagen-Gonzalez, and Marc Brysbaert. "Age-of-acquisition ratings for 30,000 English words." Behavior research methods 44.4 (2012): 978-990.
 
-Publication 5: Pitler, Emily, and Ani Nenkova. "Revisiting readability: A unified framework for predicting text quality." Proceedings of the 2008 conference on empirical methods in natural language processing. 2008.
-
-Publication 6: Barzilay, Regina, and Mirella Lapata. "Modeling local coherence: An entity-based approach." Computational Linguistics 34.1 (2008): 1-34.
-
-Publication 7: Guinaudeau, Camille, and Michael Strube. "Graph-based local coherence modeling." Proceedings of the 51st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2013.
-
-> Syntax
-
-Publication 1: Feng, Lijun, Martin Jansche, Matt Huenerfauth, and Noémie Elhadad. "A Comparison of Features for Automatic Readability Assessment." In Coling 2010: Posters, pp. 276-284. 2010.
-
-Publication 2: Lu, Xiaofei. "Automatic analysis of syntactic complexity in second language writing." International journal of corpus linguistics 15, no. 4 (2010): 474-496.
-
-Publication 3: Schwarm, Sarah E., and Mari Ostendorf. "Reading level assessment using support vector machines and statistical language models." Proceedings of the 43rd Annual Meeting of the Association for Computational Linguistics (ACL’05). 2005.
-
-> Lexico Semantics
-
-Publication 1: Kuperman, Victor, Hans Stadthagen-Gonzalez, and Marc Brysbaert. "Age-of-acquisition ratings for 30,000 English words." Behavior research methods 44.4 (2012): 978-990.
-
-Publication 2: Vajjala, Sowmya, and Detmar Meurers. "Readability-based sentence ranking for evaluating text simplification." (2015).
-
-Publication 3: Malvern, David, and Brian Richards. "Measures of lexical richness." The encyclopedia of applied linguistics (2012).
-
-Publication 4: Lu, Xiaofei. "A corpus‐based evaluation of syntactic complexity measures as indices of college‐level ESL writers' language development." TESOL quarterly 45.1 (2011): 36-62.
-
-Publication 5: Vajjala, Sowmya, and Detmar Meurers. "On improving the accuracy of readability classification using insights from second language acquisition." Proceedings of the seventh workshop on building educational applications using NLP. 2012.
-
-> Shallow Traditional
-
-Special thanks to TextStat library.
+**Traditional Formulas Features**
+> Kincaid, J. Peter, Robert P. Fishburne Jr, Richard L. Rogers, and Brad S. Chissom. Derivation of new readability formulas (automated readability index, fog count and flesch reading ease formula) for navy enlisted personnel. Naval Technical Training Command Millington TN Research Branch, 1975.
 
 
 

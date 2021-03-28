@@ -1,10 +1,10 @@
 # -*- coding: UTF-8 -*-
 """
 *** LingFeat - Comprehensive Linguistic Features for Readability Assessment
-*** Verb Variation Features
+*** Variational Features
 
 References:
->>> Variation features inspired by 
+>>> Variational features inspired by 
 Publication 1: Lu, Xiaofei. "A corpus‐based evaluation of syntactic complexity measures as indices of college‐level ESL writers' language development." TESOL quarterly 45.1 (2011): 36-62.
 Publication 2: Vajjala, Sowmya, and Detmar Meurers. "On improving the accuracy of readability classification using insights from second language acquisition." Proceedings of the seventh workshop on building educational applications using NLP. 2012.
 """
