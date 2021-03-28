@@ -16,24 +16,24 @@ LingFeat is a Python research package for various handcrafted linguistic feature
 
 These features can be divided into five broad linguistic branches:
 1. **Advanced Semantic** (AdSem): for measuing complexity of meaning structures
-   - Semantic Richness, Noise, and Clarity from trained LDA models (included, no training required)
+   - *Semantic Richness, Noise, and Clarity from trained LDA models (included, no training required)*
 
 2. **Discourse** (Disco): for measuring coherence/cohesion
-   - Entity Counts, Entity Grid, and Local Coherence score
+   - *Entity Counts, Entity Grid, and Local Coherence score*
 
 3. **Syntactic** (Synta): for measuring the complexity of grammar and structure
-   - Phrasal Counts (e.g. Noun Phrase), Part-of-Speech Counts, and Tree Structure
+   - *Phrasal Counts (e.g. Noun Phrase), Part-of-Speech Counts, and Tree Structure*
 
 4. **Lexico Semantic** (LxSem): for measuring word/phrasal-specific difficulty
-   - Type Token Ratio, Variational Score (e.g. Verb Variation), Age-of-Acquistion, and SubtlexUS Frequency
+   - *Type Token Ratio, Variational Score (e.g. Verb Variation), Age-of-Acquistion, and SubtlexUS Frequency*
 
 5. **Shallow Traditional** (ShTra): traditional features/formulas for text difficulty
-   - Basic Average Counts (words per sentence), Flesch-Kincaid Reading Ease, Smog, Gunning Fog, ...
+   - *Basic Average Counts (words per sentence), Flesch-Kincaid Reading Ease, Smog, Gunning Fog, ...*
 
 ## Things to note
 The features contained in this software are inspired from readability assessment (RA) research, a time-honored branch of NLP. References are listed in this documentation.
 
-To broadly understand how these features interact with text readability, difficulty, and complexity, I suggest you read Section 2 and 3 in my paper:
+This software is built mainly for our paper on 
 
 **Pushing on Readability: Advanced Semantics and Neural Augmentation**, EMNLP 2021.
 
@@ -53,6 +53,43 @@ git clone https://github.com/brucewlee/lingfeat.git
    
 ## Usage
 
+A. **General Purpose (basic)**
+
+If you aren't deeply interested in linguistics, you usually don't require the full feature set of LingFeat.
+
+The following code returns a dictionary of 6 outputs from commonly used formulas in predicting readability:
+- Flesch Kincaid Grade Level *(Feature Code: FleschG_S)*
+- Automated Readability Index *(Feature Code: AutoRea_S)*
+- Coleman Liau Readability Score *(Feature Code: ColeLia_S)*
+- Smog Index *(Feature Code: SmogInd_S)*
+- Gunning Fog Count Score *(Feature Code: Gunning_S)*
+- Linsear Write Formula Score *(Feature Code: LinseaW_S)*
+  
+These formulas are a little outdated... but still widely used.
+
+They are designed to match U.S. grade level from 1~12 (i.e. average student of the grade can read the text). 
+
+Ideally, you could average these 6 outputs to obtain a reliable outcome.
+```python
+from lingfeat import extractor
+
+text = "..."
+
+LingFeat = extractor.start(text)
+
+LingFeat.preprocess()
+
+TraF = LingFeat.TraF_()
+
+print(TraF)
+
+```
+
+B. **Research/ML/NLP Purpose (advanced)**
+
+Due to the wide number of supported features, we defined *subgroups* for features. Hence, features are not accessible individually. Instead, you'd call the *subgroups* to obtain the dictionary of the corresponding features.
+
+To broadly understand how these features interact with text readability, difficulty, and complexity, I highly suggest you read Section 2 and 3 in our EMNLP paper.
 ```python
 """
 Import
@@ -67,6 +104,7 @@ Pass text
 
 here, text must be in string type
 """
+text = "..."
 LingFeat = extractor.start(text)
 
 

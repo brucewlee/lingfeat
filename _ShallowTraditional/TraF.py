@@ -97,11 +97,11 @@ def retrieve(origin_doc, sent_token_list, n_sent, n_token):
     FKG = Formulas.flesch_grade_level
     LWF = Formulas.linsear_write_formula
     result = {
-        "SmogInd_S":SMI,
-        "ColeLia_S":CML,
-        "Gunning_S":GNF,
-        "AutoRea_S":ARI,
         "FleschG_S":FKG,
+        "AutoRea_S":ARI,
+        "ColeLia_S":CML,
+        "SmogInd_S":SMI,
+        "Gunning_S":GNF,
         "LinseaW_S":LWF,
     }
     return result
