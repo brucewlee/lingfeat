@@ -37,7 +37,9 @@ This software is built mainly for our paper on
 
 **Pushing on Readability: Advanced Semantics and Neural Augmentation**, EMNLP 2021.
 
-Most of these features are developed for passage-level analysis. But sentence input will work fine with the program.
+Please cite our paper and provide link to this repository if you use in software in research.
+
+Most supported features are developed for passage analysis. But sentence input will work fine with the program.
 
 ## Installation
 
