@@ -14,8 +14,6 @@ from lingfeat.utils import count_syllables
 
 class formulas:
     def __init__(self, origin_doc, sent_token_list, n_sent, n_token):
-        self.origin_doc = origin_doc
-        self.token_list = token_list
         self.n_sent = n_sent
         self.n_token = n_token
         n_syll = 0
@@ -47,12 +45,12 @@ class formulas:
 
     # follow "new" automated readability index in reference 1
     def automated_readability_index(self):
-        result = 0.37(self.n_token/self.n_sent)+5.84(self.n_char/n_token)-26.01
+        result = 0.37*(self.n_token/self.n_sent)+5.84*(self.n_char/self.n_token)-26.01
         return result
     
     # follow "new" fog count in reference 1
     def fog_count(self):
-        result = ((self.n_easy_token + 3(self.n_diff_token))/self.n_sent - 3)/2
+        result = ((self.n_easy_token + 3*(self.n_diff_token))/self.n_sent - 3)/2
         return result
 
     """
@@ -64,7 +62,7 @@ class formulas:
 
     # follow "new" flesch reading ease in reference 1
     def flesch_grade_level(self):
-        result = 0.39(self.n_token/self.n_sent) + 11.8(self.n_syll/self.n_token) - 15.59
+        result = 0.39*(self.n_token/self.n_sent) + 11.8*(self.n_syll/self.n_token) - 15.59
         return result
 
     # follow reference 2
@@ -74,12 +72,12 @@ class formulas:
     
     # follow reference 3
     def coleman_liau_index(self):
-        result = 0.0588(self.n_token/100) - 0.00296(self.n_sent) -15.8
+        result = 0.0588*(self.n_token/100) - 0.00296*(self.n_sent) -15.8
         return result
     
     # follow reference 3
     def linsear_write_formula(self):
-        result = (self.n_easy_token + 3(self.n_diff_token))/self.n_sent
+        result = (self.n_easy_token + 3*(self.n_diff_token))/self.n_sent
         if result > 10:
             result /= 2
         else:
@@ -90,12 +88,12 @@ class formulas:
 
 def retrieve(origin_doc, sent_token_list, n_sent, n_token):
     Formulas = formulas(origin_doc, sent_token_list, n_sent, n_token)
-    SMI = Formulas.smog_index
-    CML = Formulas.coleman_liau_index
-    GNF = Formulas.fog_count
-    ARI = Formulas.automated_readability_index
-    FKG = Formulas.flesch_grade_level
-    LWF = Formulas.linsear_write_formula
+    SMI = Formulas.smog_index()
+    CML = Formulas.coleman_liau_index()
+    GNF = Formulas.fog_count()
+    ARI = Formulas.automated_readability_index()
+    FKG = Formulas.flesch_grade_level()
+    LWF = Formulas.linsear_write_formula()
     result = {
         "FleschG_S":FKG,
         "AutoRea_S":ARI,

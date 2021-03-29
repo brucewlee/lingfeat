@@ -3,7 +3,7 @@
 # LingFeat - Comprehensive Linguistic Features Extraction ToolKit for Readability Assessment
 - [LingFeat - Comprehensive Linguistic Features Extraction ToolKit for Readability Assessment](#lingfeat---comprehensive-linguistic-features-extraction-toolkit-for-readability-assessment)
   - [Overview](#overview)
-  - [Things to note](#things-to-note)
+  - [Things to note, Citation](#things-to-note-citation)
   - [Installation](#installation)
   - [Usage](#usage)
   - [Available Features, Code, Definition](#available-features-code-definition)
@@ -30,14 +30,16 @@ These features can be divided into five broad linguistic branches:
 5. **Shallow Traditional** (ShTra): traditional features/formulas for text difficulty
    - *Basic Average Counts (words per sentence), Flesch-Kincaid Reading Ease, Smog, Gunning Fog, ...*
 
-## Things to note
-The features contained in this software are inspired from readability assessment (RA) research, a time-honored branch of NLP. References are listed in this documentation.
+## Things to note, Citation
+- LingFeat is built for text complexity/difficulty/readability analysis.
+- We provide guidelines for both basic users and advanced users. Please follow [Usage](#usage) section.
+- The features contained in this software are inspired from readability assessment (RA) research, a time-honored branch of NLP. Some key references are listed in this documentation.
 
 This software is built mainly for our paper on 
 
-**Pushing on Readability: Advanced Semantics and Neural Augmentation**, EMNLP 2021.
+> **Pushing on Readability: Advanced Semantics and Neural Augmentation**, EMNLP 2021.
 
-Please cite our paper and provide link to this repository if you use in this software in research.
+*Please cite our paper and provide link to this repository* if you use in this software in research.
 
 Most supported features are developed for passage analysis. But sentence input will work fine with the program.
 
@@ -421,7 +423,7 @@ TraF = LingFeat.TraF_() # Traditional Formulas Features
 
 
 ## Key References
-We only list only the key references here. Check our paper for full references.
+We list only the key references here. Check our paper for full references.
 
 **Entity Density Features**
 > Feng, Lijun, Noémie Elhadad, and Matt Huenerfauth. "Cognitively motivated features for readability assessment." Proceedings of the 12th Conference of the European Chapter of the ACL (EACL 2009). 2009.
