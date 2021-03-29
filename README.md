@@ -31,9 +31,11 @@ These features can be divided into five broad linguistic branches:
    - *Basic Average Counts (words per sentence), Flesch-Kincaid Reading Ease, Smog, Gunning Fog, ...*
 
 ## Things to note, Citation
-- LingFeat is built for text complexity/difficulty/readability analysis.
-- We provide guidelines for both basic users and advanced users. Please follow [Usage](#usage) section.
-- The features contained in this software are inspired from readability assessment (RA) research, a time-honored branch of NLP. Some key references are listed in this documentation.
+LingFeat is built for text complexity/difficulty/readability analysis.
+
+We provide guidelines for both basic users and advanced users. Please follow [Usage](#usage) section.
+
+The features contained in this software are inspired from readability assessment (RA) research, a time-honored branch of NLP. Some key references are listed in this documentation.
 
 This software is built mainly for our paper on 
 
