@@ -3,7 +3,8 @@
 # LingFeat - Comprehensive Linguistic Features Extraction ToolKit for Readability Assessment
 - [LingFeat - Comprehensive Linguistic Features Extraction ToolKit for Readability Assessment](#lingfeat---comprehensive-linguistic-features-extraction-toolkit-for-readability-assessment)
   - [Overview](#overview)
-  - [Things to note, Citation](#things-to-note-citation)
+  - [Things to note](#things-to-note)
+  - [Citation](#citation)
   - [Installation](#installation)
   - [Usage](#usage)
   - [Available Features, Code, Definition](#available-features-code-definition)
@@ -30,13 +31,14 @@ These features can be divided into five broad linguistic branches:
 5. **Shallow Traditional** (ShTra): traditional features/formulas for text difficulty
    - *Basic Average Counts (words per sentence), Flesch-Kincaid Reading Ease, Smog, Gunning Fog, ...*
 
-## Things to note, Citation
+## Things to note
 LingFeat is built for text complexity/difficulty/readability analysis.
 
 We provide guidelines for both basic users and advanced users. Please follow [Usage](#usage) section.
 
 The features contained in this software are inspired from readability assessment (RA) research, a time-honored branch of NLP. Some key references are listed in this documentation.
 
+## Citation
 This software is built mainly for our paper on 
 
 > **Pushing on Readability: Advanced Semantics and Neural Augmentation**, EMNLP 2021.
