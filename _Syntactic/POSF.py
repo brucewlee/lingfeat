@@ -1,12 +1,20 @@
 # -*- coding: UTF-8 -*-
 """
-*** LingFeat - Comprehensive Linguistic Features for Readability Assessment
-*** Part-of-speech features
+Software: LingFeat - Comprehensive Linguistic Features for Readability Assessment
+Page: POSF.py (Part-of-Speech Features)
+License: CC-BY-SA 4.0
+
+Original Author: Bruce W. Lee (이웅성) @brucewlee
+Affiliation 1: LXPER AI, Seoul, South Korea
+Affiliation 2: University of Pennsylvania, PA, USA
+Contributing Author: -
+Affiliation : -
 
 References:
->>> Phrasal features inspired by 
+>>> Part-of-Speech features inspired by 
 Publication 1: Feng, Lijun, Noémie Elhadad, and Matt Huenerfauth. "Cognitively motivated features for readability assessment." Proceedings of the 12th Conference of the European Chapter of the ACL (EACL 2009). 2009.
 """
+
 from lingfeat.utils import division
     
 def retrieve(NLP_doc, n_token, n_sent):

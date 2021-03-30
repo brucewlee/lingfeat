@@ -1,7 +1,14 @@
 # -*- coding: UTF-8 -*-
 """
-*** LingFeat - Comprehensive Linguistic Features for Readability Assessment
-*** Phrasal Features
+Software: LingFeat - Comprehensive Linguistic Features for Readability Assessment
+Page: PhrF.py (Phrasal Features)
+License: CC-BY-SA 4.0
+
+Original Author: Bruce W. Lee (이웅성) @brucewlee
+Affiliation 1: LXPER AI, Seoul, South Korea
+Affiliation 2: University of Pennsylvania, PA, USA
+Contributing Author: -
+Affiliation : -
 
 References:
 >>> Phrasal features inspired by 

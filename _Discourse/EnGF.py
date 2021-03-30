@@ -1,7 +1,14 @@
 # -*- coding: UTF-8 -*-
 """
-*** LingFeat - Comprehensive Linguistic Features for Readability Assessment 
-*** Entity Grid Features
+Software: LingFeat - Comprehensive Linguistic Features for Readability Assessment
+Page: EnGF.py (Entity Grid Features)
+License: CC-BY-SA 4.0
+
+Original Author: Diego Palma @dpalmasan
+Affiliation: Evernote
+Contributing Author: Bruce W. Lee (이웅성) @brucewlee
+Affiliation 1: LXPER AI, Seoul, South Korea
+Affiliation 2: University of Pennsylvania, PA, USA
 
 References:
 >>> Original Python Code from TRUNAJOD2.0, modified by Bruce W. Lee
@@ -21,6 +28,7 @@ Publication 1: Barzilay, Regina, and Mirella Lapata. "Modeling local coherence: 
 >>> Local Coherence (graph-based)
 Publication 1: Guinaudeau, Camille, and Michael Strube. "Graph-based local coherence modeling." Proceedings of the 51st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers). 2013.
 """
+
 from lingfeat.utils import division
 
 NOUNS = set(['NOUN', 'PRON', 'PROPN'])
