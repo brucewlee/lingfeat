@@ -455,7 +455,7 @@ We license LingFeat source code under [Creative Commons Attribution Share Alike 
 
 Under CC-BY-SA-4.0 license, you are allowed to distribute, modify, or privately use this repository.
 
-But patent use, trademark use, and warranty use are not permitted. **Research, code, or etc. that builds on top of LingFeat must be released under the same license.** Alternatively, a similar open source license may be used.
+But patent use, trademark use, and warranty use are not permitted. **Research, code, or etc. that builds on top of LingFeat must be released under the same license.** Alternatively, **a similar open source license may be used.**
 
 
 ## Acknowledgement
