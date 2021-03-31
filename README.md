@@ -12,6 +12,7 @@
   - [Available Features, Code, Definition](#available-features-code-definition)
   - [Key References](#key-references)
   - [License](#license)
+  - [Acknowledgement](#acknowledgement)
 
 ## Overview
 
@@ -152,19 +153,19 @@ EnDF = LingFeat.EnDF_() # Entity Density Features
 EnGF = LingFeat.EnGF_() # Entity Grid Features
 
 # Syntactic (Synta) Features
-PhrF = LingFeat.PhrF_() # Nount/Verb/Adj/Adv/... Phrasal Features
+PhrF = LingFeat.PhrF_() # Noun/Verb/Adj/Adv/... Phrasal Features
 TrSF = LingFeat.TrSF_() # (Parse) Tree Structural Features
-POSF = LingFeat.POSF_() # Part-of-Speech Features
+POSF = LingFeat.POSF_() # Noun/Verb/Adj/Adv/... Part-of-Speech Features
 
 # Lexico Semantic (LxSem) Features
 TTRF = LingFeat.TTRF_() # Type Token Ratio Features
 VarF = LingFeat.VarF_() # Noun/Verb/Adj/Adv Variation Features 
 PsyF = LingFeat.PsyF_() # Psycholinguistic Difficulty of Words (AoA Kuperman)
-WoLF = LingFeat.WorF_() # Word Usage Frequency Features (SubtlexUS)
+WoLF = LingFeat.WorF_() # Word Familiarity from Frequency Count (SubtlexUS)
 
 # Shallow Traditional (ShTra) Features
 ShaF = LingFeat.ShaF_() # Shallow Features (e.g. avg number of tokens)
-TraF = LingFeat.TraF_() # Traditional Formulas Features
+TraF = LingFeat.TraF_() # Traditional Formulas 
 ```
 
 
@@ -388,30 +389,30 @@ TraF = LingFeat.TraF_() # Traditional Formulas Features
 | 215   | LxSem     | PsyF_         | Psycholinguistic Features            | to_AACoL_C   | total AoA of lemmas, Cortese and Khanna norm                                   |
 | 216   | LxSem     | PsyF_         | Psycholinguistic Features            | as_AACoL_C   | average AoA of lemmas, Cortese and Khanna norm per sentence                    |
 | 217   | LxSem     | PsyF_         | Psycholinguistic Features            | at_AACoL_C   | average AoA of lemmas, Cortese and Khanna norm per token                       |
-| 218   | LxSem     | WorF_         | Word Frequency Features              | to_SbFrQ_C   | total SubtlexUS FREQcount value                                                |
-| 219   | LxSem     | WorF_         | Word Frequency Features              | as_SbFrQ_C   | average SubtlexUS FREQcount value per sentenc                                  |
-| 220   | LxSem     | WorF_         | Word Frequency Features              | at_SbFrQ_C   | average SubtlexUS FREQcount value per token                                    |
-| 221   | LxSem     | WorF_         | Word Frequency Features              | to_SbCDC_C   | total SubtlexUS CDcount value                                                  |
-| 222   | LxSem     | WorF_         | Word Frequency Features              | as_SbCDC_C   | average SubtlexUS CDcount value per sentence                                   |
-| 223   | LxSem     | WorF_         | Word Frequency Features              | at_SbCDC_C   | average SubtlexUS CDcount value per token                                      |
-| 224   | LxSem     | WorF_         | Word Frequency Features              | to_SbFrL_C   | total SubtlexUS FREQlow value                                                  |
-| 225   | LxSem     | WorF_         | Word Frequency Features              | as_SbFrL_C   | average SubtlexUS FREQlow value per sentence                                   |
-| 226   | LxSem     | WorF_         | Word Frequency Features              | at_SbFrL_C   | average SubtlexUS FREQlow value per token                                      |
-| 227   | LxSem     | WorF_         | Word Frequency Features              | to_SbCDL_C   | total SubtlexUS CDlow value                                                    |
-| 228   | LxSem     | WorF_         | Word Frequency Features              | as_SbCDL_C   | average SubtlexUS CDlow value per sentence                                     |
-| 229   | LxSem     | WorF_         | Word Frequency Features              | at_SbCDL_C   | average SubtlexUS CDlow value per token                                        |
-| 230   | LxSem     | WorF_         | Word Frequency Features              | to_SbSBW_C   | total SubtlexUS SUBTLWF value                                                  |
-| 231   | LxSem     | WorF_         | Word Frequency Features              | as_SbSBW_C   | average SubtlexUS SUBTLWF value per sentence                                   |
-| 232   | LxSem     | WorF_         | Word Frequency Features              | at_SbSBW_C   | average SubtlexUS SUBTLWF value per token                                      |
-| 233   | LxSem     | WorF_         | Word Frequency Features              | to_SbL1W_C   | total SubtlexUS Lg10WF value                                                   |
-| 234   | LxSem     | WorF_         | Word Frequency Features              | as_SbL1W_C   | average SubtlexUS Lg10WF value per sentence                                    |
-| 235   | LxSem     | WorF_         | Word Frequency Features              | at_SbL1W_C   | average SubtlexUS Lg10WF value per token                                       |
-| 236   | LxSem     | WorF_         | Word Frequency Features              | to_SbSBC_C   | total SubtlexUS SUBTLCD value                                                  |
-| 237   | LxSem     | WorF_         | Word Frequency Features              | as_SbSBC_C   | average SubtlexUS SUBTLCD value per sentence                                   |
-| 238   | LxSem     | WorF_         | Word Frequency Features              | at_SbSBC_C   | average SubtlexUS SUBTLCD value per token                                      |
-| 239   | LxSem     | WorF_         | Word Frequency Features              | to_SbL1C_C   | total SubtlexUS Lg10CD value                                                   |
-| 240   | LxSem     | WorF_         | Word Frequency Features              | as_SbL1C_C   | average SubtlexUS Lg10CD value per sentence                                    |
-| 241   | LxSem     | WorF_         | Word Frequency Features              | at_SbL1C_C   | average SubtlexUS Lg10CD value per token                                       |
+| 218   | LxSem     | WorF_         | Word Familiarity              | to_SbFrQ_C   | total SubtlexUS FREQcount value                                                |
+| 219   | LxSem     | WorF_         | Word Familiarity              | as_SbFrQ_C   | average SubtlexUS FREQcount value per sentenc                                  |
+| 220   | LxSem     | WorF_         | Word Familiarity              | at_SbFrQ_C   | average SubtlexUS FREQcount value per token                                    |
+| 221   | LxSem     | WorF_         | Word Familiarity              | to_SbCDC_C   | total SubtlexUS CDcount value                                                  |
+| 222   | LxSem     | WorF_         | Word Familiarity              | as_SbCDC_C   | average SubtlexUS CDcount value per sentence                                   |
+| 223   | LxSem     | WorF_         | Word Familiarity              | at_SbCDC_C   | average SubtlexUS CDcount value per token                                      |
+| 224   | LxSem     | WorF_         | Word Familiarity              | to_SbFrL_C   | total SubtlexUS FREQlow value                                                  |
+| 225   | LxSem     | WorF_         | Word Familiarity              | as_SbFrL_C   | average SubtlexUS FREQlow value per sentence                                   |
+| 226   | LxSem     | WorF_         | Word Familiarity              | at_SbFrL_C   | average SubtlexUS FREQlow value per token                                      |
+| 227   | LxSem     | WorF_         | Word Familiarity              | to_SbCDL_C   | total SubtlexUS CDlow value                                                    |
+| 228   | LxSem     | WorF_         | Word Familiarity              | as_SbCDL_C   | average SubtlexUS CDlow value per sentence                                     |
+| 229   | LxSem     | WorF_         | Word Familiarity              | at_SbCDL_C   | average SubtlexUS CDlow value per token                                        |
+| 230   | LxSem     | WorF_         | Word Familiarity              | to_SbSBW_C   | total SubtlexUS SUBTLWF value                                                  |
+| 231   | LxSem     | WorF_         | Word Familiarity              | as_SbSBW_C   | average SubtlexUS SUBTLWF value per sentence                                   |
+| 232   | LxSem     | WorF_         | Word Familiarity              | at_SbSBW_C   | average SubtlexUS SUBTLWF value per token                                      |
+| 233   | LxSem     | WorF_         | Word Familiarity              | to_SbL1W_C   | total SubtlexUS Lg10WF value                                                   |
+| 234   | LxSem     | WorF_         | Word Familiarity              | as_SbL1W_C   | average SubtlexUS Lg10WF value per sentence                                    |
+| 235   | LxSem     | WorF_         | Word Familiarity              | at_SbL1W_C   | average SubtlexUS Lg10WF value per token                                       |
+| 236   | LxSem     | WorF_         | Word Familiarity              | to_SbSBC_C   | total SubtlexUS SUBTLCD value                                                  |
+| 237   | LxSem     | WorF_         | Word Familiarity              | as_SbSBC_C   | average SubtlexUS SUBTLCD value per sentence                                   |
+| 238   | LxSem     | WorF_         | Word Familiarity              | at_SbSBC_C   | average SubtlexUS SUBTLCD value per token                                      |
+| 239   | LxSem     | WorF_         | Word Familiarity              | to_SbL1C_C   | total SubtlexUS Lg10CD value                                                   |
+| 240   | LxSem     | WorF_         | Word Familiarity              | as_SbL1C_C   | average SubtlexUS Lg10CD value per sentence                                    |
+| 241   | LxSem     | WorF_         | Word Familiarity              | at_SbL1C_C   | average SubtlexUS Lg10CD value per token                                       |
 | 242   | ShaTr     | ShaF_         | Shallow Features                     | TokSenM_S   | total count of tokens x total count of sentence                                |
 | 243   | ShaTr     | ShaF_         | Shallow Features                     | TokSenS_S   | sqrt(total count of tokens x total count of sentence)                                |
 | 244   | ShaTr     | ShaF_         | Shallow Features                     | TokSenL_S   | log(total count of tokens)/log(total count of sentence)                           |
@@ -420,12 +421,12 @@ TraF = LingFeat.TraF_() # Traditional Formulas Features
 | 247   | ShaTr     | ShaF_         | Shallow Features                     | at_Sylla_C         | average count of syllables per token                                           |
 | 248   | ShaTr     | ShaF_         | Shallow Features                     | as_Chara_C   | average count of characters per sentence                                       |
 | 249   | ShaTr     | ShaF_         | Shallow Features                     | at_Chara_C   | average count of characters per token                                          |
-| 250   | ShaTr     | TraF_         | Traditional Formulas Features        | SmogInd_S    | Smog Index                                                                     |
-| 251   | ShaTr     | TraF_         | Traditional Formulas Features        | ColeLia_S    | Coleman Liau Readability Score                                                 |
-| 252   | ShaTr     | TraF_         | Traditional Formulas Features        | Gunning_S    | Gunning Fog Count Score                                                                    |
-| 253   | ShaTr     | TraF_         | Traditional Formulas Features        | AutoRea_S    | New Automated Readability Index                                                    |
-| 254   | ShaTr     | TraF_         | Traditional Formulas Features        | FleschG_S    | Flesch Kincaid Grade Level                                                           |
-| 255   | ShaTr     | TraF_         | Traditional Formulas Features        | LinseaW_S    | Linsear Write Formula Score                                                                  |
+| 250   | ShaTr     | TraF_         | Traditional Formulas         | SmogInd_S    | Smog Index                                                                     |
+| 251   | ShaTr     | TraF_         | Traditional Formulas         | ColeLia_S    | Coleman Liau Readability Score                                                 |
+| 252   | ShaTr     | TraF_         | Traditional Formulas         | Gunning_S    | Gunning Fog Count Score                                                                    |
+| 253   | ShaTr     | TraF_         | Traditional Formulas         | AutoRea_S    | New Automated Readability Index                                                    |
+| 254   | ShaTr     | TraF_         | Traditional Formulas         | FleschG_S    | Flesch Kincaid Grade Level                                                           |
+| 255   | ShaTr     | TraF_         | Traditional Formulas         | LinseaW_S    | Linsear Write Formula Score                                                                  |
 
 
 ## Key References
@@ -444,18 +445,23 @@ Repository: <https://github.com/dpalmasan/TRUNAJOD2.0>
 **Psycholinguistic Features**
 > Kuperman, Victor, Hans Stadthagen-Gonzalez, and Marc Brysbaert. "Age-of-acquisition ratings for 30,000 English words." Behavior research methods 44.4 (2012): 978-990.
 
-**Traditional Formulas Features**
+**Traditional Formulas**
 > Kincaid, J. Peter, Robert P. Fishburne Jr, Richard L. Rogers, and Brad S. Chissom. Derivation of new readability formulas (automated readability index, fog count and flesch reading ease formula) for navy enlisted personnel. Naval Technical Training Command Millington TN Research Branch, 1975.
 
 
 
 ## License
-We license LingFeat source code under [(Creative Commons Attribution Share Alike 4.0 license CC-BY-SA-4.0)](https://creativecommons.org/licenses/by-sa/4.0/legalcode).
+We license LingFeat source code under [Creative Commons Attribution Share Alike 4.0 license (CC-BY-SA-4.0)](https://creativecommons.org/licenses/by-sa/4.0/legalcode).
 
 Under CC-BY-SA-4.0 license, you are allowed to distribute, modify, or privately use this repository.
 
-But patent use, trademark use, and warranty use are not permitted. Research, code, or etc. that builds on top of LingFeat must be released under the same license. If impossible, a similar public license may be used.
+But patent use, trademark use, and warranty use are not permitted. **Research, code, or etc. that builds on top of LingFeat must be released under the same license.** Alternatively, a similar open source license may be used.
 
+
+## Acknowledgement
+I made this software during my time at LXPER AI, Seoul, South Korea. We decided to make this software openly available strictly for academic research purpose only.
+
+I thank the firm and all other members of the R&D department for making this research possible.
 
 [cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
 [cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
