@@ -1,5 +1,7 @@
 [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 
+<a href="https://lxper.com"><img src="lxper_logo.png" width="175" align="right" /></a>
+
 # LingFeat - Comprehensive Linguistic Features Extraction ToolKit for Readability Assessment
 - [LingFeat - Comprehensive Linguistic Features Extraction ToolKit for Readability Assessment](#lingfeat---comprehensive-linguistic-features-extraction-toolkit-for-readability-assessment)
   - [Overview](#overview)
@@ -150,18 +152,18 @@ EnDF = LingFeat.EnDF_() # Entity Density Features
 EnGF = LingFeat.EnGF_() # Entity Grid Features
 
 # Syntactic (Synta) Features
-PhrF = LingFeat.PhrF_() # Phrasal Features
+PhrF = LingFeat.PhrF_() # Nount/Verb/Adj/Adv/... Phrasal Features
 TrSF = LingFeat.TrSF_() # (Parse) Tree Structural Features
-POSF = LingFeat.POSF_() # Part_of_Speech Features
+POSF = LingFeat.POSF_() # Part-of-Speech Features
 
 # Lexico Semantic (LxSem) Features
 TTRF = LingFeat.TTRF_() # Type Token Ratio Features
 VarF = LingFeat.VarF_() # Noun/Verb/Adj/Adv Variation Features 
-PsyF = LingFeat.PsyF_() # Psycholing. Features (AoA Kuperman)
-WoLF = LingFeat.WorF_() # Word Frequency Features (SubtlexUS)
+PsyF = LingFeat.PsyF_() # Psycholinguistic Difficulty of Words (AoA Kuperman)
+WoLF = LingFeat.WorF_() # Word Usage Frequency Features (SubtlexUS)
 
 # Shallow Traditional (ShTra) Features
-ShaF = LingFeat.ShaF_() # Shallow Features (e.g. avg n_token)
+ShaF = LingFeat.ShaF_() # Shallow Features (e.g. avg number of tokens)
 TraF = LingFeat.TraF_() # Traditional Formulas Features
 ```
 
