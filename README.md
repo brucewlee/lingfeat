@@ -170,7 +170,7 @@ TraF = LingFeat.TraF_() # Traditional Formulas
 
 
 ## Available Features, Code, Definition
-| Index | Linguistic Branch   | Subgroup Code | Subgroup Definition                  | Feature Code | Feature Definition                                                             |
+| Index | Linguistic Branch   | Subgroup Code | Subgroup Definition                  | Feature Code Name | Feature Definition                                                             |
 |-------|---------------------|---------------|--------------------------------------|--------------|--------------------------------------------------------------------------------|
 | 1     | AdSem  | WoKF_         | Wiki Knowledge Features             | WRich05_S    | Semantic Richness, 50 topics extracted from Wikipedia                          |
 | 2     | AdSem  | WoKF_         | Wiki Knowledge Features             | WClar05_S    | Semantic Clarity, 50 topics extracted from Wikipedia                           |
