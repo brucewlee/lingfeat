@@ -80,7 +80,7 @@ class formulas:
     
     # follow reference 3
     def coleman_liau_index(self):
-        result = 0.0588*(self.n_token/100) - 0.00296*(self.n_sent) -15.8
+        result = 0.0588*(self.n_token/100) - 0.00296*(self.n_sent) - 15.8
         return result
     
     # follow reference 3

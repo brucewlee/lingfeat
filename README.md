@@ -49,7 +49,7 @@ This software is built mainly for our paper on
 
 *Please cite our paper and provide link to this repository* if you use in this software in research.
 
-Most supported features are developed for passage analysis. But sentence input will work fine with the program.
+Most supported features are developed for passage analysis. One sentence input will work fine with the program but won't produce reliable output.
 
 ## Installation
 
@@ -62,7 +62,7 @@ Option 2. Install from the repo. You'll need to install the dependencis by yours
 ```bash
 git clone https://github.com/brucewlee/lingfeat.git
 cd lingfeat
-pip install -r requirements.txt
+pip install -r lingfeat/requirements.txt
 ```
    
 ## Usage
