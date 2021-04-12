@@ -58,7 +58,7 @@ Option 1. Use the package manager [pip](https://pip.pypa.io/en/stable/) to insta
 pip install lingfeat
 ```
 
-Option 2. Install from the repo. You'll need to install the dependencis by yourself. Ideally, do this in a virtual environment (optional).
+Option 2. Install from the repo. You'll need to install the dependencis by yourself. Ideally, use virtual environment (optional).
 ```bash
 git clone https://github.com/brucewlee/lingfeat.git
 cd lingfeat
