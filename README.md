@@ -53,12 +53,12 @@ Most supported features are developed for passage analysis. One sentence input w
 
 ## Installation
 
-Option 1. Use the package manager [pip](https://pip.pypa.io/en/stable/) to install LingFeat. (not supported now)
+**Option 1.** Use the package manager [pip](https://pip.pypa.io/en/stable/) to install LingFeat. (not supported now)
 ```bash
 pip install lingfeat
 ```
 
-Option 2. Install from the repo. 
+**Option 2.** Install from the repo. 
 
 You'll need to install the dependencies, including spaCy, by yourself. Ideally, use virtual environment (optional).
 
