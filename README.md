@@ -1,4 +1,5 @@
 [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
+[![spaCy](https://img.shields.io/badge/made%20with%20❤%20and-spaCy-09a3d5.svg)](https://spacy.io)
 
 <a href="https://lxper.com"><img src="lxper_logo.png" width="150" align="right" /></a>
 

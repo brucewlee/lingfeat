@@ -63,7 +63,7 @@ NLP = spacy.load('en_core_web_sm')
 SuPar = Parser.load('crf-con-en')
 
 
-class start:
+class pass_text:
     
     """
     Initialize pipeline
