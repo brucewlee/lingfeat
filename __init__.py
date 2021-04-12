@@ -1,1 +1,1 @@
-from lingfeat.extractor import start
+from lingfeat.extractor import pass_text
