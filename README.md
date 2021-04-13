@@ -65,7 +65,6 @@ You'll need to install the dependencies, including spaCy, by yourself. Ideally, 
 Use code below for option 2.
 ```bash
 git clone https://github.com/brucewlee/lingfeat.git
-cd lingfeat
 pip install -r lingfeat/requirements.txt
 ```
    
