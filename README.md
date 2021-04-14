@@ -92,7 +92,7 @@ from lingfeat import extractor
 
 text = "..."
 
-LingFeat = extractor.start(text)
+LingFeat = extractor.pass_text(text)
 
 LingFeat.preprocess()
 
@@ -122,7 +122,7 @@ Pass text
 here, text must be in string type
 """
 text = "..."
-LingFeat = extractor.start(text)
+LingFeat = extractor.pass_text(text)
 
 
 """
