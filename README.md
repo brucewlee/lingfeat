@@ -45,7 +45,7 @@ The features contained in this software are inspired from readability assessment
 ## Citation
 This software is built mainly for our paper on 
 
-> **Pushing on Readability: Advanced Semantics and Neural Augmentation**, EMNLP 2021.
+> **Pushing on Text Readability Assessment: A Transformer Meets Handcrafted Linguistic Features**, EMNLP (Nov. 2021, Dominican Republic).
 
 *Please cite our paper and provide link to this repository* if you use in this software in research.
 
