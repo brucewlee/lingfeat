@@ -34,7 +34,8 @@ setup(
     'Development Status :: 3 - Alpha',      # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
     'Intended Audience :: Developers',      # Define that your audience are developers
     'Topic :: Software Development :: Build Tools',
-    'License :: Creative Commons Attribution Share Alike 4.0',   # Again, pick a license
+    'Intended Audience :: Education',
+    'Intended Audience :: Science/Research',
     'Programming Language :: Python :: 3.6',      #Specify which pyhton versions that you want to support
     'Programming Language :: Python :: 3.7',
     'Programming Language :: Python :: 3.8',
