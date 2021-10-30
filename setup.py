@@ -20,7 +20,7 @@ setup(
   author = 'Bruce W. Lee',        
   author_email = 'phys.w.s.lee@gmail.com', 
   url = 'https://github.com/brucewlee',
-  download_url = 'https://github.com/brucewlee/lingfeat/archive/refs/tags/v.1.0.0-beta.tar.gz', 
+  download_url = 'https://github.com/brucewlee/lingfeat/archive/refs/tags/v.1.0.0-beta.1.tar.gz', 
   keywords = ['NLP', 'LINGUISTIC FEATURE', 'READABILITY'], 
   install_requires=[            # I get to this in a second
           'spacy >= 3.0.0',
