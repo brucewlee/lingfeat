@@ -104,6 +104,14 @@ print(TraF)
 
 B. **Research/ML/NLP Purpose (advanced)**
 
+B.1 ***Spacy Requirements***
+
+This library assumes that you have spaCy sm corpus installed. If not, or if you aren't sure, run (in terminal)
+> python -m spacy download en_core_web_sm
+
+
+B.2. ***Example***
+
 Due to the wide number of supported features, we defined *subgroups* for features. Hence, features are not accessible individually. Instead, you'd call the *subgroups* to obtain the dictionary of the corresponding features.
 
 To broadly understand how these features interact with text readability, difficulty, and complexity, I highly suggest you read Section 2 and 3 in our EMNLP paper.
