@@ -25,7 +25,10 @@ setup(
   install_requires=[            # I get to this in a second
           'spacy >= 3.0.0',
           'supar',
-          'gensim'
+          'gensim',
+          'pandas',
+          'python-Levenshtein',
+          'https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.0.0/en_core_web_sm-3.0.0.tar.gz#egg=en_core_web_sm'
       ],
   classifiers=[
     'Development Status :: 3 - Alpha',      # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
