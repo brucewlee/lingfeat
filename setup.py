@@ -14,7 +14,7 @@ from distutils.core import setup
 setup(
   name = 'lingfeat',
   packages = ['lingfeat'],
-  version = '1.0',
+  version = '1.0.0',
   license='cc-by-sa-4.0',
   description = 'Comprehensive Linguistic Features Extraction for Readability Assessment', 
   author = 'Bruce W. Lee',        
