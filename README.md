@@ -1,10 +1,10 @@
 [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 [![spaCy](https://img.shields.io/badge/made%20with%20❤%20and-spaCy-09a3d5.svg)](https://spacy.io)
-
-<a href="https://lxper.com"><img src="img/lxper_logo.png" width="250" align="right" /></a>
-
-# LingFeat - Comprehensive Linguistic Features Extraction ToolKit for Readability Assessment
-- [LingFeat - Comprehensive Linguistic Features Extraction ToolKit for Readability Assessment](#lingfeat---comprehensive-linguistic-features-extraction-toolkit-for-readability-assessment)
+[![Downloads](https://static.pepy.tech/personalized-badge/lingfeat?period=month&units=international_system&left_color=lightgrey&right_color=yellowgreen&left_text=Downloads)](https://pepy.tech/project/lingfeat)
+<a href="https://pypi.org/project/LingFeat"><img alt="PyPI" src="https://img.shields.io/badge/pypi-supported-yellow"></a>
+<a href="https://lxper.com"><img src="img/lxper_logo.png" width="150" align="right" /></a>
+# LingFeat - A Comprehensive Linguistic Features Extraction ToolKit for Readability Assessment and Text Simplification
+- [LingFeat - A Comprehensive Linguistic Features Extraction ToolKit for Readability Assessment and Text Simplification](#lingfeat---a-comprehensive-linguistic-features-extraction-toolkit-for-readability-assessment-and-text-simplification)
   - [Overview](#overview)
   - [Things to note](#things-to-note)
   - [Citation](#citation)
@@ -14,6 +14,11 @@
   - [Key References](#key-references)
   - [License](#license)
   - [Acknowledgement](#acknowledgement)
+
+<center>
+<img class="fit-picture"
+     src="img/lingfeat_logo.png" width="400" align="center">
+</center>
 
 ## Overview
 
@@ -36,16 +41,14 @@ These features can be divided into five broad linguistic branches:
    - *Basic Average Counts (words per sentence), Flesch-Kincaid Reading Ease, Smog, Gunning Fog, ...*
 
 ## Things to note
-LingFeat is built for text complexity/difficulty/readability analysis.
+LingFeat is mainly built for text complexity/difficulty/readability analysis or text simplification studies. But it's role is to simply extract numerical linguistic faetures from a text. Hence, the use cases may vary.
 
 We provide guidelines for both basic users and advanced users. Please follow [Usage](#usage) section.
 
-The features contained in this software are inspired from readability assessment (RA) research, a time-honored branch of NLP. Some key references are listed in this documentation.
-
 ## Citation
-This software is built mainly for our paper on 
+This software is built for our paper on 
 
-> **Pushing on Text Readability Assessment: A Transformer Meets Handcrafted Linguistic Features**, EMNLP (Nov. 2021, Dominican Republic).
+> **Pushing on Text Readability Assessment: A Transformer Meets Handcrafted Linguistic Features**, EMNLP 2021.
 
 *Please cite our paper and provide link to this repository* if you use in this software in research.
 
@@ -53,7 +56,7 @@ Most supported features are developed for passage analysis. One sentence input w
 
 ## Installation
 
-**Option 1.** Use the package manager [pip](https://pip.pypa.io/en/stable/) to install LingFeat. (not supported now)
+**Option 1. (Recommended)** Use package manager [pip](https://pip.pypa.io/en/stable/) to install LingFeat. 
 ```bash
 pip install lingfeat
 ```
@@ -106,8 +109,10 @@ B. **Research/ML/NLP Purpose (advanced)**
 
 B.1 ***Spacy Requirements***
 
-This library assumes that you have spaCy sm corpus installed. If not, or if you aren't sure, run (in terminal)
-> python -m spacy download en_core_web_sm
+This library assumes that you have spaCy sm corpus (that is compatible with spaCy 3.0+) installed. If not, or if you aren't sure, run the following in terminal.
+```bash
+python -m spacy download en_core_web_sm
+```
 
 
 B.2. ***Example***

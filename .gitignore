@@ -1,4 +1,6 @@
 __pycache__/
 venv/
 dist/
-.DS_Store
+**/.DS_Store
+MANIFEST.in
+lingfeat.egg-info
