@@ -19,7 +19,7 @@
   - [License](#license)
   - [Acknowledgement](#acknowledgement)
 
-<p align="center">proudly powered by &nbsp&nbsp&nbsp&nbsp<img src="img/lxper_logo.png" width="250" /></p>
+<p align="center">proudly powered by &nbsp&nbsp&nbsp&nbsp<a href="https://lxper.com"><img src="img/lxper_logo.png" width="250" /></p>
 
 ## Overview
 
