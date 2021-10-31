@@ -4,7 +4,7 @@
 [![Downloads](https://static.pepy.tech/personalized-badge/lingfeat?period=month&units=international_system&left_color=lightgrey&right_color=yellowgreen&left_text=Downloads)](https://pepy.tech/project/lingfeat)
 <a href="https://pypi.org/project/LingFeat"><img alt="PyPI" src="https://img.shields.io/badge/pypi-supported-yellow"></a>
 <img alt="Python 3.5+" src="https://img.shields.io/badge/python-3.5%2B-yellowgreen"></a>
-
+<img alt="LingFeat" src="https://img.shields.io/badge/LingFeat-v.1.0.0--beta.19-red"></a>
 <p align="center"><img src="img/lingfeat_logo.png" width="500" /> </p>
 
 # LingFeat - Comprehensive Linguistic Features Extraction Tool for Readability Assessment and Text Simplification
@@ -19,7 +19,7 @@
   - [License](#license)
   - [Acknowledgement](#acknowledgement)
 
-<p align="center">powered by &nbsp&nbsp&nbsp&nbsp<img src="img/lxper_logo.png" width="250" /></p>
+<p align="center">proudly powered by &nbsp&nbsp&nbsp&nbsp<img src="img/lxper_logo.png" width="250" /></p>
 
 ## Overview
 
