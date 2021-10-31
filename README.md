@@ -1,8 +1,14 @@
 [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
 [![spaCy](https://img.shields.io/badge/made%20with%20❤%20and-spaCy-09a3d5.svg)](https://spacy.io)
 [![Downloads](https://static.pepy.tech/personalized-badge/lingfeat?period=month&units=international_system&left_color=lightgrey&right_color=yellowgreen&left_text=Downloads)](https://pepy.tech/project/lingfeat)
+
 <a href="https://pypi.org/project/LingFeat"><img alt="PyPI" src="https://img.shields.io/badge/pypi-supported-yellow"></a>
-<a href="https://lxper.com"><img src="img/lxper_logo.png" width="150" align="right" /></a>
+
+<p float="left">
+  <img src="img/lxper_logo.png" width="270" />
+  <img src="img/lingfeat_logo.png" width="270" /> 
+</p>
+
 # LingFeat - A Comprehensive Linguistic Features Extraction ToolKit for Readability Assessment and Text Simplification
 - [LingFeat - A Comprehensive Linguistic Features Extraction ToolKit for Readability Assessment and Text Simplification](#lingfeat---a-comprehensive-linguistic-features-extraction-toolkit-for-readability-assessment-and-text-simplification)
   - [Overview](#overview)
@@ -15,10 +21,6 @@
   - [License](#license)
   - [Acknowledgement](#acknowledgement)
 
-<center>
-<img class="fit-picture"
-     src="img/lingfeat_logo.png" width="400" align="center">
-</center>
 
 ## Overview
 
