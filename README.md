@@ -4,13 +4,15 @@
 
 <a href="https://pypi.org/project/LingFeat"><img alt="PyPI" src="https://img.shields.io/badge/pypi-supported-yellow"></a>
 
+<p align="center">
 <p float="left">
-  <img src="img/lxper_logo.png" width="270" />
-  <img src="img/lingfeat_logo.png" width="270" /> 
+  <img src="img/lxper_logo.png" width="250" />
+  <img src="img/lingfeat_logo.png" width="250" /> 
+</p>
 </p>
 
-# LingFeat - A Comprehensive Linguistic Features Extraction ToolKit for Readability Assessment and Text Simplification
-- [LingFeat - A Comprehensive Linguistic Features Extraction ToolKit for Readability Assessment and Text Simplification](#lingfeat---a-comprehensive-linguistic-features-extraction-toolkit-for-readability-assessment-and-text-simplification)
+# LingFeat - Comprehensive Linguistic Features Extraction Tool for Readability Assessment and Text Simplification
+- [LingFeat - Comprehensive Linguistic Features Extraction Tool for Readability Assessment and Text Simplification](#lingfeat---comprehensive-linguistic-features-extraction-tool-for-readability-assessment-and-text-simplification)
   - [Overview](#overview)
   - [Things to note](#things-to-note)
   - [Citation](#citation)
