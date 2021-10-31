@@ -5,10 +5,8 @@
 <a href="https://pypi.org/project/LingFeat"><img alt="PyPI" src="https://img.shields.io/badge/pypi-supported-yellow"></a>
 
 <p align="center">
-<p float="left">
   <img src="img/lxper_logo.png" width="250" />
   <img src="img/lingfeat_logo.png" width="250" /> 
-</p>
 </p>
 
 # LingFeat - Comprehensive Linguistic Features Extraction Tool for Readability Assessment and Text Simplification
