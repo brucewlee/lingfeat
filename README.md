@@ -6,7 +6,6 @@
 
 <p align="center">
   <img src="img/lxper_logo.png" width="250" />
-  <img src="img/lingfeat_logo.png" width="250" /> 
 </p>
 
 # LingFeat - Comprehensive Linguistic Features Extraction Tool for Readability Assessment and Text Simplification
@@ -20,8 +19,10 @@
   - [Key References](#key-references)
   - [License](#license)
   - [Acknowledgement](#acknowledgement)
-
-
+  
+<p align="center">
+<img src="img/lingfeat_logo.png" width="500" /> 
+</p>
 ## Overview
 
 LingFeat is a Python research package for various handcrafted linguistic features. More specifically, LingFeat is an NLP feature extraction software, which currently extracts 255 linguistic features from **English** string input. 
