@@ -4,9 +4,7 @@
 
 <a href="https://pypi.org/project/LingFeat"><img alt="PyPI" src="https://img.shields.io/badge/pypi-supported-yellow"></a>
 
-<p align="center">
-  <img src="img/lxper_logo.png" width="250" />
-</p>
+<p align="center"><img src="img/lingfeat_logo.png" width="500" /> </p>
 
 # LingFeat - Comprehensive Linguistic Features Extraction Tool for Readability Assessment and Text Simplification
 - [LingFeat - Comprehensive Linguistic Features Extraction Tool for Readability Assessment and Text Simplification](#lingfeat---comprehensive-linguistic-features-extraction-tool-for-readability-assessment-and-text-simplification)
@@ -20,9 +18,8 @@
   - [License](#license)
   - [Acknowledgement](#acknowledgement)
   
-<p align="center">
-<img src="img/lingfeat_logo.png" width="500" /> 
-</p>
+<p align="center">'<img src="img/lxper_logo.png" width="250" /></p>
+
 ## Overview
 
 LingFeat is a Python research package for various handcrafted linguistic features. More specifically, LingFeat is an NLP feature extraction software, which currently extracts 255 linguistic features from **English** string input. 
