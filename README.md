@@ -23,7 +23,7 @@
 LingFeat is a Python research package for various handcrafted linguistic features. More specifically, LingFeat is an NLP feature extraction software, which currently extracts 255 linguistic features from **English** string input. 
 
 These features can be divided into five broad linguistic branches:
-1. **Advanced Semantic** (AdSem): for measuing complexity of meaning structures
+1. **Advanced Semantic** (AdSem): for measuing complexity of meaning structures (**Not working in some cases. Working on this issue.**)
    - *Semantic Richness, Noise, and Clarity from trained LDA models (included, no training required)*
 
 2. **Discourse** (Disco): for measuring coherence/cohesion
