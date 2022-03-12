@@ -46,17 +46,17 @@ We provide guidelines for both basic users and advanced users. Please follow [Us
 ## Citation
 This software is built for our paper on 
 
-> @inproceedings{lee-etal-2021-pushing,\n
-    title = "Pushing on Text Readability Assessment: A Transformer Meets Handcrafted Linguistic Features",\\
-    author = "Lee, Bruce W. and Jang, Yoo Sung and Lee, Jason",
-    booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
-    month = nov,
-    year = "2021",
-    address = "Online and Punta Cana, Dominican Republic",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2021.emnlp-main.834",
-    doi = "10.18653/v1/2021.emnlp-main.834",
-    pages = "10669--10686"}
+> @inproceedings{lee-etal-2021-pushing,
+> title = "Pushing on Text Readability Assessment: A Transformer Meets Handcrafted Linguistic Features",
+> author = "Lee, Bruce W. and Jang, Yoo Sung and Lee, Jason",
+> booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
+> month = nov,
+> year = "2021",
+> address = "Online and Punta Cana, Dominican Republic",
+> publisher = "Association for Computational Linguistics",
+> url = "https://aclanthology.org/2021.emnlp-main.834",
+> doi = "10.18653/v1/2021.emnlp-main.834",
+> pages = "10669--10686"}
 
 *Please cite our paper and provide link to this repository* if you use in this software in research.
 
