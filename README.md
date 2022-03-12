@@ -46,11 +46,9 @@ We provide guidelines for both basic users and advanced users. Please follow [Us
 ## Citation
 This software is built for our paper on 
 
-> @inproceedings{lee-etal-2021-pushing,
-    title = "Pushing on Text Readability Assessment: A Transformer Meets Handcrafted Linguistic Features",
-    author = "Lee, Bruce W.  and
-      Jang, Yoo Sung  and
-      Lee, Jason",
+> @inproceedings{lee-etal-2021-pushing,\\
+    title = "Pushing on Text Readability Assessment: A Transformer Meets Handcrafted Linguistic Features",\\
+    author = "Lee, Bruce W. and Jang, Yoo Sung and Lee, Jason",
     booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
     month = nov,
     year = "2021",
