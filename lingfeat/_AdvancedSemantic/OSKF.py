@@ -87,12 +87,12 @@ def retrieve(token_list, dir_path):
     # make resulting dictionary
     result = {}
     for i,feature in enumerate(richness_list):
-        result["BRich"+n_topic_list_for_naming[i]+"_S"] = feature
+        result["ORich"+n_topic_list_for_naming[i]+"_S"] = feature
     for i,feature in enumerate(clarity_list):
-        result["BClar"+n_topic_list_for_naming[i]+"_S"] = feature
+        result["OClar"+n_topic_list_for_naming[i]+"_S"] = feature
     for i,feature in enumerate(noise_list):
-        result["BNois"+n_topic_list_for_naming[i]+"_S"] = feature
+        result["ONois"+n_topic_list_for_naming[i]+"_S"] = feature
     for i,feature in enumerate(n_topics_list):
-        result["BTopc"+n_topic_list_for_naming[i]+"_S"] = feature
+        result["OTopc"+n_topic_list_for_naming[i]+"_S"] = feature
     
     return result
