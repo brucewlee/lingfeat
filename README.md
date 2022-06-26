@@ -20,14 +20,14 @@
 
 ## Future Project
 
-Since the release of LingFeat, along with our paper at EMNLP 2021, we hoped to see more centralized platforms that standardizes the calculation of ``handcrafted features''(such as word per sentence or letter per sentence).
-It's a shame that ``handcrafted features'' used across NLP research are still very decentralized, making the calculation protocol of a same feature slightly differ from study to study.
+Since the release of LingFeat, along with our paper at EMNLP 2021, we hoped to see more centralized platforms that standardizes the calculation of handcrafted features(such as word per sentence or letter per sentence).
+It's a shame that handcrafted features used across NLP research are still very decentralized, making the calculation protocol of a same feature slightly differ from study to study.
 
 Nevertheless, my goal is still the same.
-I want to create a centralized and modulated method of calculating all common ``handcrafted features'' -- a centralized tool for all research across NLP.
-I'm not planning to update LingFeat, but rather build a better feature extraction tool from the scratch.
+I want to create a centralized and modulated method of calculating all common handcrafted features -- a centralized tool for all research across NLP.
+From July 2022 onwards, I'm not planning to update LingFeat, but rather build a better feature extraction tool from the scratch.
 
-I am starting a research/python library development for the next year's ACL main conferences (e.g. ACL, EMNLP, etc.). If anyone wants to join the research as co-authors (that means we plan, develop software, etc together, though I'll do the mundane work of writing paper), please email me at brucelws@seas.upenn.edu. Then, I'll invite you to a Slack channel. Currently, I'm the sole author and developer so even the slightest help would be very grateful.
+**I am starting a research/python library development for the next year's ACL main conferences (e.g. ACL, EMNLP, etc.), which I hope to be a small-sized community project.** If anyone wants to join the research paper as authors (that means we plan, develop software, etc together, though I'll do the mundane work of writing paper), please email me at brucelws@seas.upenn.edu. Then, I'll invite you to a Slack channel. Currently, I'm the sole author and developer so even the slightest help would be very grateful.
 
 Thank you,
 
