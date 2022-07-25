@@ -54,7 +54,7 @@ This software is built for our paper on
 > year = "2021",\
 > address = "Online and Punta Cana, Dominican Republic",\
 > publisher = "Association for Computational Linguistics",\
-> url = "https://aclanthology.org/2021.emnlp-main.834",\
+> url = "https://aclanthology.org/2021.emnlp-main.834"
 > doi = "10.18653/v1/2021.emnlp-main.834",\
 > pages = "10669--10686"}
 
