@@ -19,7 +19,7 @@
   - [Acknowledgement](#acknowledgement)
 
 ## Towards V.1.0.1 (Production-Ready)
-Thank you to the community for all the acknowledgements and recommendations. I'm planning a full update on LingFeat, towards ACL 2023 Demo Track. Anyone who wish to contribute linguistic features or join as authors are welcome to email me at brucelws{at}seas.upenn.edu. Any help would greatly help.
+Thank you to the community for all the acknowledgements and recommendations. I'm planning a full update on LingFeat, towards ACL 2023 Demo Track. Anyone who wish to contribute linguistic features or join as authors are welcome to email me at **brucelws{at}seas.upenn.edu**. Any help would greatly help.
 
 Specifically, I'll look into the following components:
 - Multilingual (or Language-agnostic) linguistic features.
