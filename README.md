@@ -18,6 +18,19 @@
   - [License](#license)
   - [Acknowledgement](#acknowledgement)
 
+## Towards V.1.0.1 (Production-Ready)
+Thank you to the community for all the acknowledgements and recommendations. I'm planning a full update on LingFeat, towards ACL 2023 Demo Track. Anyone who wish to contribute linguistic features or join as authors are welcome to email me at brucelws{at}seas.upenn.edu. Any help would greatly help.
+
+Specifically, I'll look into the following components:
+- Multilingual (or Language-agnostic) linguistic features.
+- Robustness of the current linguistic features categorization (AdSem, LxSem, and etc.)
+- Scientific appropriateness of the current linguistic features calculation strategies.
+- Usage in fields other than Readability Assessment and Text Simplification.
+
+Development schedule will be as follows:
+- August, 2022 - December, 2022 : Development
+- January, 2023 : Paper writing
+
 ## Overview
 
 LingFeat is a Python research package for various handcrafted linguistic features. More specifically, LingFeat is an NLP feature extraction software, which currently extracts 255 linguistic features from **English** string input. 
@@ -37,6 +50,7 @@ These features can be divided into five broad linguistic branches:
 
 5. **Shallow Traditional** (ShTra): traditional features/formulas for text difficulty
    - *Basic Average Counts (words per sentence), Flesch-Kincaid Reading Ease, Smog, Gunning Fog, ...*
+
 
 ## Things to note
 LingFeat is mainly built for text complexity/difficulty/readability analysis or text simplification studies. But it's role is to simply extract numerical linguistic faetures from a text. Hence, the use cases may vary.
