@@ -18,7 +18,7 @@
   - [License](#license)
   - [Acknowledgement](#acknowledgement)
 
-## Towards V.1.0.1 (Production-Ready)
+## Towards V.1.1
 Thank you to the community for all the acknowledgements and recommendations. I'm planning a full update on LingFeat, towards ACL 2023 Demo Track. Anyone who wish to contribute linguistic features or join as authors are welcome to email me at **brucelws{at}seas.upenn.edu**. Any help would greatly help.
 
 Specifically, I'll look into the following components:
