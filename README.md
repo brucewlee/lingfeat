@@ -18,6 +18,9 @@
   - [License](#license)
   - [Acknowledgement](#acknowledgement)
 
+## Upgrade Notice - 2022-10-18
+I am currently updating this repository, including project structure, feature coverage, and etc. The already existing issues will be reflected, too. Please email at brucelws@seas.upenn.edu for any suggestions. Thank you community for the patience.
+
 ## Overview
 
 LingFeat is a Python research package for various handcrafted linguistic features. More specifically, LingFeat is an NLP feature extraction software, which currently extracts 255 linguistic features from **English** string input. 
