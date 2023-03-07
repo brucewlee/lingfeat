@@ -18,6 +18,9 @@
   - [License](#license)
   - [Acknowledgement](#acknowledgement)
 
+## Migration Notice - 2023-03-06
+LingFeat is now maintained in a new repository named [LFTK] (https://github.com/brucewlee/lftk). The new library will have more focus on usability, coverage, multilingualism, and expandability.
+
 ## Upgrade Notice - 2022-10-18
 I am currently updating this repository, including project structure, feature coverage, and etc. The already existing issues will be reflected, too. Please email at brucelws@seas.upenn.edu for any suggestions. Thank you community for the patience.
 
